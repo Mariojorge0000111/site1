@@ -1,0 +1,60 @@
+---
+import Base from './Base.astro';
+import Cta from '../components/Cta.astro';
+import { SITE, SERVICOS } from '../config';
+
+interface Props {
+  slug: string;
+  title: string;
+  description: string;
+  h1: string;
+  mensagem?: string;
+}
+const { slug, title, description, h1, mensagem } = Astro.props;
+const servico = SERVICOS.find((s) => s.slug === slug)!;
+const url = new URL(`/${slug}/`, Astro.site).href;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: servico.titulo,
+    serviceType: servico.titulo,
+    description,
+    areaServed: { '@type': 'City', name: `${SITE.cidade} - ${SITE.estado}` },
+    provider: { '@type': 'MovingCompany', name: SITE.nome },
+    url,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: servico.titulo, item: url },
+    ],
+  },
+];
+const outros = SERVICOS.filter((s) => s.slug !== slug);
+---
+<Base title={title} description={description} schema={schema}>
+  <article class="estreito conteudo">
+    <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> › {servico.titulo}</nav>
+    <h1>{h1}</h1>
+    <slot />
+  </article>
+
+  <Cta mensagem={mensagem} />
+
+  <section class="container">
+    <h2>Outros serviços</h2>
+    <div class="grid">
+      {outros.map((s) => (
+        <a class="card" href={`/${s.slug}/`}>
+          <span class="icone" aria-hidden="true">{s.icone}</span>
+          <h3>{s.titulo}</h3>
+          <p>{s.curto}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

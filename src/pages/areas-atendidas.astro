@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import Cta from '../components/Cta.astro';
+import { BAIRROS, REGIAO } from '../config';
+---
+<Base
+  title="Áreas atendidas: frete e mudança em Curitiba e região"
+  description="Frete e mudança em todos os bairros de Curitiba e na região metropolitana: São José dos Pinhais, Pinhais, Colombo, Araucária, Fazenda Rio Grande, Campo Largo e mais."
+>
+  <article class="estreito conteudo">
+    <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> › Áreas atendidas</nav>
+    <h1>Áreas atendidas em Curitiba e região</h1>
+    <p>
+      Fazemos fretes, carretos e mudanças em todos os bairros de Curitiba e nas cidades da região metropolitana.
+      Se o seu bairro não aparece na lista, é só chamar: atendemos a cidade inteira.
+    </p>
+
+    <h2>Bairros de Curitiba</h2>
+    <ul class="tags">{BAIRROS.map((b) => <li>{b}</li>)}</ul>
+
+    <h2>Região metropolitana</h2>
+    <ul class="tags">{REGIAO.map((c) => <li>{c}</li>)}</ul>
+
+    <h2>Fretes para outras cidades</h2>
+    <p>
+      Também fazemos fretes e mudanças de Curitiba para o litoral do Paraná, para o interior do estado e para
+      cidades de Santa Catarina, como Joinville, Itajaí, Balneário Camboriú e Florianópolis. Nesses casos, o valor
+      é combinado no orçamento conforme a distância e o volume.
+    </p>
+  </article>
+  <Cta />
+</Base>

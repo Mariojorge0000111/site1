@@ -1,0 +1,43 @@
+---
+import Base from './Base.astro';
+import Cta from '../components/Cta.astro';
+import { SITE } from '../config';
+
+const { frontmatter } = Astro.props;
+const url = new URL(Astro.url.pathname, Astro.site).href;
+const data = new Date(frontmatter.data + 'T12:00:00');
+const dataBR = data.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: frontmatter.titulo,
+    description: frontmatter.descricao,
+    datePublished: frontmatter.data,
+    dateModified: frontmatter.atualizado ?? frontmatter.data,
+    author: { '@type': 'Organization', name: SITE.nome },
+    publisher: { '@type': 'Organization', name: SITE.nome },
+    mainEntityOfPage: url,
+    inLanguage: 'pt-BR',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: 'Dicas', item: new URL('/blog/', Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: frontmatter.titulo, item: url },
+    ],
+  },
+];
+---
+<Base title={frontmatter.titulo} description={frontmatter.descricao} schema={schema} ogType="article">
+  <article class="estreito conteudo">
+    <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> › <a href="/blog/">Dicas</a></nav>
+    <h1>{frontmatter.titulo}</h1>
+    <p class="post-meta"><time datetime={frontmatter.data}>{dataBR}</time></p>
+    <slot />
+  </article>
+  <Cta />
+</Base>

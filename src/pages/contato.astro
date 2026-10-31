@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, linkWhatsapp } from '../config';
+const wa = linkWhatsapp();
+const temWhats = wa.startsWith('http');
+---
+<Base
+  title="Contato e orçamento de frete em Curitiba"
+  description="Peça seu orçamento de frete, carreto ou mudança em Curitiba pelo WhatsApp. Resposta rápida e sem compromisso."
+>
+  <article class="estreito conteudo">
+    <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> › Contato</nav>
+    <h1>Peça seu orçamento</h1>
+    <p>Para um orçamento rápido e preciso, mande pelo WhatsApp:</p>
+    <ol>
+      <li>O que precisa ser levado (uma lista ou fotos ajudam muito)</li>
+      <li>Endereço de origem e de destino, com bairro</li>
+      <li>Se há escada, elevador ou alguma restrição do prédio</li>
+      <li>A data e o horário que você prefere</li>
+      <li>Se precisa de desmontagem, montagem ou embalagem</li>
+    </ol>
+    {temWhats ? (
+      <p><a class="btn" href={wa} target="_blank" rel="noopener">Chamar no WhatsApp</a></p>
+    ) : (
+      <p><strong>Atendimento pelo WhatsApp disponível em breve.</strong></p>
+    )}
+    {SITE.telefone && <p>Telefone: <a href={`tel:+${SITE.whatsapp}`}>{SITE.telefone}</a></p>}
+    <p>Horário de atendimento: {SITE.horario}.</p>
+  </article>
+</Base>

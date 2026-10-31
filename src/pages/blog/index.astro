@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const arquivos = import.meta.glob('./*.md', { eager: true }) as Record<string, any>;
+const posts = Object.values(arquivos)
+  .map((p) => ({ ...p.frontmatter, url: p.url }))
+  .sort((a, b) => (a.data < b.data ? 1 : -1));
+---
+<Base
+  title="Dicas de mudança e frete em Curitiba"
+  description="Dicas práticas para organizar sua mudança, embalar móveis e objetos frágeis e contratar frete em Curitiba sem dor de cabeça."
+>
+  <section class="estreito conteudo">
+    <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> › Dicas</nav>
+    <h1>Dicas de mudança e frete</h1>
+    <div class="lista-posts">
+      {posts.map((p) => (
+        <a class="card" href={p.url.endsWith('/') ? p.url : p.url + '/'}>
+          <h2 style="margin:0 0 6px;font-size:1.25rem">{p.titulo}</h2>
+          <p>{p.descricao}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

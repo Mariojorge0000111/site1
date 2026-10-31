@@ -1,0 +1,135 @@
+---
+import Base from '../layouts/Base.astro';
+import Cta from '../components/Cta.astro';
+import { SITE, SERVICOS, BAIRROS, REGIAO, linkWhatsapp } from '../config';
+
+const faq = [
+  {
+    p: 'Quanto custa um frete em Curitiba?',
+    r: 'O valor depende da distância, do volume, do tamanho do veículo e de detalhes como escada, elevador e necessidade de ajudantes. Por isso o orçamento é feito caso a caso: você manda a lista de itens e os endereços e recebe o preço antes de fechar.',
+  },
+  {
+    p: 'Com quanto tempo de antecedência devo agendar?',
+    r: 'Para fretes pequenos, muitas vezes dá para atender no mesmo dia ou no dia seguinte. Para mudanças completas, o ideal é agendar com uma a duas semanas de antecedência, principalmente no fim e no início do mês, quando a procura é maior.',
+  },
+  {
+    p: 'Vocês desmontam e montam os móveis?',
+    r: 'Sim. Na mudança residencial e comercial é possível incluir desmontagem e montagem de camas, guarda-roupas, mesas e estantes. É só informar no pedido de orçamento.',
+  },
+  {
+    p: 'Atendem fora de Curitiba?',
+    r: `Sim. Além de todos os bairros de Curitiba, atendemos a região metropolitana, como ${REGIAO.slice(0, 4).join(', ')} e outras cidades. Viagens para outras cidades do Paraná e de Santa Catarina são combinadas no orçamento.`,
+  },
+  {
+    p: 'Preciso embalar tudo antes?',
+    r: 'Para fretes simples, sim: deixe caixas fechadas e itens soltos protegidos. Na mudança completa, a embalagem pode ser incluída no serviço, com caixas, plástico-bolha e manta para os móveis.',
+  },
+];
+
+const schemaFaq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({
+    '@type': 'Question',
+    name: f.p,
+    acceptedAnswer: { '@type': 'Answer', text: f.r },
+  })),
+};
+
+const wa = linkWhatsapp();
+const externo = wa.startsWith('http');
+---
+<Base
+  title={`Frete e Mudança em Curitiba | ${SITE.nome}`}
+  description="Frete, carreto e mudança em Curitiba e região metropolitana. Mudança residencial e comercial, desmontagem e montagem de móveis. Peça seu orçamento pelo WhatsApp."
+  schema={schemaFaq}
+>
+  <section class="hero">
+    <div class="container">
+      <h1>Frete e mudança em Curitiba sem dor de cabeça</h1>
+      <p class="lead">
+        De uma geladeira até a casa inteira: levamos seus móveis com cuidado, no dia e horário combinados,
+        em qualquer bairro de Curitiba e na região metropolitana.
+      </p>
+      <div class="hero-acoes">
+        <a class="btn" href={wa} {...(externo ? { target: '_blank', rel: 'noopener' } : {})}>Pedir orçamento no WhatsApp</a>
+        <a class="btn btn-claro" href="#servicos">Ver serviços</a>
+      </div>
+      <ul class="selos">
+        <li>Orçamento sem compromisso</li>
+        <li>Móveis protegidos com manta</li>
+        <li>Desmontagem e montagem</li>
+        <li>Curitiba e região</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="servicos">
+    <div class="container">
+      <h2>Serviços de frete e mudança</h2>
+      <div class="grid">
+        {SERVICOS.map((s) => (
+          <a class="card" href={`/${s.slug}/`}>
+            <span class="icone" aria-hidden="true">{s.icone}</span>
+            <h3>{s.titulo}</h3>
+            <p>{s.curto}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="secao secao-alt">
+    <div class="container">
+      <h2>Como funciona</h2>
+      <ol class="passos">
+        <li><strong>Você conta o que precisa.</strong> Mande pelo WhatsApp os itens, os endereços de origem e destino e a data desejada.</li>
+        <li><strong>Recebe o orçamento.</strong> O valor vem fechado, considerando veículo, distância, escadas e ajudantes.</li>
+        <li><strong>Agendamos.</strong> Data e horário confirmados com antecedência, sem surpresa no dia.</li>
+        <li><strong>Transporte com cuidado.</strong> Itens protegidos, carregados e entregues no lugar certo.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="container">
+      <h2>Por que contratar um frete de confiança</h2>
+      <p>
+        Mudança é um daqueles dias em que tudo precisa dar certo. Um frete mal combinado pode significar móvel riscado,
+        atraso, cobrança extra na hora ou o caminhão que simplesmente não aparece. Por isso a gente trabalha com
+        orçamento claro antes de fechar, horário combinado e cuidado com cada item.
+      </p>
+      <p>
+        Curitiba tem suas particularidades: prédios antigos sem elevador no Centro e no Alto da XV, condomínios com
+        horário restrito para mudança no Ecoville e no Batel, ruas estreitas e muita chuva. Saber disso antes evita
+        imprevisto. Na hora do orçamento, avise se há escada, se o prédio exige agendamento e se algum móvel precisa
+        ser içado.
+      </p>
+    </div>
+  </section>
+
+  <section class="secao secao-alt">
+    <div class="container">
+      <h2>Bairros e cidades atendidos</h2>
+      <p>Atendemos todos os bairros de Curitiba, incluindo:</p>
+      <ul class="tags">{BAIRROS.slice(0, 18).map((b) => <li>{b}</li>)}</ul>
+      <p>E também a região metropolitana:</p>
+      <ul class="tags">{REGIAO.map((c) => <li>{c}</li>)}</ul>
+      <p><a href="/areas-atendidas/">Ver todas as áreas atendidas →</a></p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="estreito faq">
+      <h2>Perguntas frequentes</h2>
+      {faq.map((f) => (
+        <details>
+          <summary>{f.p}</summary>
+          <p>{f.r}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <Cta />
+</Base>

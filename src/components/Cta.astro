@@ -1,0 +1,23 @@
+---
+import { linkWhatsapp } from '../config';
+
+interface Props {
+  titulo?: string;
+  texto?: string;
+  mensagem?: string;
+}
+const {
+  titulo = 'Peça seu orçamento sem compromisso',
+  texto = 'Conte o que precisa levar, de onde e para onde. A resposta vem rápido, pelo WhatsApp.',
+  mensagem,
+} = Astro.props;
+const wa = linkWhatsapp(mensagem);
+const externo = wa.startsWith('http');
+---
+<section class="container">
+  <div class="cta">
+    <h2>{titulo}</h2>
+    <p>{texto}</p>
+    <a class="btn" href={wa} {...(externo ? { target: '_blank', rel: 'noopener' } : {})}>Chamar no WhatsApp</a>
+  </div>
+</section>
