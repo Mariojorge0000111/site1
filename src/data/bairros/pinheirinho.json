@@ -40,7 +40,7 @@
     "carreto": "Carreto Pinheirinho Curitiba é muito pedido por quem compra no comércio popular da Winston Churchill e precisa levar o móvel ou o eletrodoméstico para casa no mesmo dia. Também atendemos pequenas cargas para Fazenda Rio Grande e bairros da CIC, aproveitando a saída pela BR-116.",
     "mudanca-residencial": "Na mudança no Pinheirinho, o imóvel típico é casa ou sobrado com garagem. Em sobrados, avaliamos a escada e a necessidade de desmontar camas e roupeiros. Em condomínio, pedimos ao cliente que confirme dia e horário com a portaria. O orçamento é passado antes, com base no volume informado.",
     "mudanca-comercial": "O Pinheirinho tem muito comércio de rua. Mudar uma loja de roupa, uma ótica ou uma papelaria da região exige cuidado com mercadoria e vitrine. Fazemos o transporte fora do horário de venda, separando estoque, mobiliário e equipamentos, e entregamos tudo identificado no novo ponto.",
-    "montagem-de-moveis": "Desmontamos e montamos guarda-roupas, cômodas, camas, racks e armários de cozinha. Muitos clientes do Pinheirinho compram móveis nas lojas do bairro e pedem só a montagem em casa; esse serviço pode ser agendado separado da mudança, pelo WhatsApp."
+    "montagem-de-moveis": "Desmontamos e montamos guarda-roupas, cômodas, camas, racks e armários de cozinha. Muitos clientes do Pinheirinho compram móveis nas lojas do bairro e pedem só a montagem em casa; esse serviço pode ser agendado separado da mudança, pelo WhatsApp. Levamos as ferramentas e conferimos nível e fixação de cada peça antes de ir embora."
   },
   "faq": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "p": "Atendem mudanças do Pinheirinho para o Sítio Cercado ou o Xaxim?",
-      "r": "Atendemos. São bairros vizinhos, com trajeto curto pela Linha Verde ou pelas ruas internas. Mudanças pequenas entre eles costumam ser feitas em uma só viagem."
+      "r": "Atendemos. São bairros vizinhos, com trajeto curto pela Linha Verde ou pelas ruas internas. Mudanças pequenas entre eles costumam ser feitas em uma só viagem. Para o Sítio Cercado, a entrada mais usada é a Rua Izaac Ferreira da Cruz."
     }
   ],
   "proximos": ["xaxim", "sitio-cercado", "cic"],

@@ -1,0 +1,66 @@
+{
+  "slug": "portao",
+  "nome": "Portão",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Portão | Fretes e Mudanças Curitiba",
+  "descricao": "Frete e mudança no Portão, Curitiba, com rota que foge do pico da República Argentina e da Kennedy. Peça seu orçamento pelo WhatsApp e agende.",
+  "h1": "Frete e mudança no Portão, Curitiba",
+  "sobre": "O Portão nasceu de um posto de fiscalização no caminho dos tropeiros e até hoje é lugar de passagem. Fica no centro geográfico de Curitiba, dá nome a uma regional da prefeitura e tem mais de 40 mil moradores, em área majoritariamente residencial. Para quem faz frete no Portão, isso quer dizer ruas de bairro mais calmas cercadas por duas avenidas muito carregadas.",
+  "secoes": [
+    {
+      "h2": "Entre o terminal e os shoppings: o desenho do Portão",
+      "paragrafos": [
+        "O Terminal do Portão, na Avenida República Argentina, é o ponto de referência do bairro. Em frente fica o Portão Cultural, no número 3430, e ao lado, na Praça Desembargador Armando Carneiro, acontece às quintas-feiras a feira de artesanato mais antiga de Curitiba. Nesse trecho, deixar um caminhão parado é difícil, e preferimos carregar pelas ruas transversais.",
+        "Dois shoppings puxam movimento extra. O Palladium, na Avenida Presidente Kennedy, ocupa o terreno da antiga serraria Bettega e, segundo a administração, recebe mais de 1,5 milhão de visitas por mês. O Ventura fica na Rua Itacolomi. Em fim de semana e em datas de compras, o entorno dos dois enche cedo.",
+        "Na Rua Itajubá está a Live Curitiba, casa de shows para cerca de 3.400 pessoas. Em noite de evento, evitamos marcar retirada de móveis por ali no fim da tarde."
+      ]
+    },
+    {
+      "h2": "República Argentina e Kennedy: as avenidas que ditam o trânsito",
+      "paragrafos": [
+        "A República Argentina é a via mais movimentada do Portão. Por ela passam os biarticulados do eixo Norte-Sul, e nas suas margens se concentram lojas de departamentos, de móveis e de decoração. Quem compra um sofá ou um guarda-roupa ali e precisa de carreto no Portão costuma esbarrar na falta de lugar para encostar.",
+        "Na Kennedy roda o Interbairros V, que segue rumo à PUCPR e ao Jardim Botânico. Entre uma avenida e outra, a Rua João Bettega serve de caminho alternativo, mas tem o Sesc Portão, a Igreja do Portão e o Colégio Bagozzi, com movimento na entrada e na saída de alunos."
+      ]
+    },
+    {
+      "h2": "Obras do Novo Inter 2 em 2026",
+      "paragrafos": [
+        "Desde abril de 2026, o Portão está no primeiro lote de obras do Novo Inter 2, que requalifica cerca de 16 km de ruas na região. Antes de agendar uma mudança no Portão nos trechos abaixo, conferimos se a via já foi liberada:"
+      ],
+      "lista": [
+        "Rua Professora Doracy Cezzarino: bloqueio total entre as ruas Tabajara e Tamoios para alargamento e pavimentação",
+        "Avenida Presidente Arthur da Silva Bernardes: requalificação de cerca de 1,8 km, com uma faixa bloqueada em parte do trecho",
+        "Rua Álvaro Vardanega: bloqueios alternados da faixa de estacionamento para a nova calçada"
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "Frete no Portão costuma sair das lojas de móveis da República Argentina ou dos shoppings Palladium e Ventura. Combinamos o ponto de carga antes, porque a canaleta do biarticulado e o fluxo da avenida não permitem parada longa na porta das lojas. O item vai protegido com manta e segue direto para o endereço de entrega.",
+    "carreto": "O carreto no Portão atende bem quem comprou geladeira, colchão ou estante e não tem como levar. Carregamos pelas ruas transversais, longe da frente do terminal, e fazemos a entrega no mesmo dia quando a agenda permite. Mande foto dos itens e os dois endereços pelo WhatsApp para receber o orçamento.",
+    "mudanca-residencial": "O Portão é majoritariamente residencial, com casas e prédios lado a lado; o antigo Curtume Hatschbach, por exemplo, deu lugar a edifícios residenciais. Em casa, olhamos a largura da rua e a garagem. Em prédio, o horário do elevador e as regras do condomínio. Também marcamos o caminhão fora do pico da República Argentina.",
+    "mudanca-comercial": "O comércio do Portão se espalha pela República Argentina, pela Kennedy e pelo entorno do terminal, com lojas, clínicas, farmácias, bares e restaurantes. Para mudança comercial nessas avenidas, sugerimos começar cedo ou depois do expediente, quando o movimento cai. Levamos mobiliário, arquivos e equipamentos embalados e identificados por setor.",
+    "montagem-de-moveis": "Quem compra nas lojas de decoração da República Argentina muitas vezes recebe tudo desmontado. Fazemos a montagem no endereço, no Portão ou em bairros da mesma regional, como Vila Izabel, Fanny e Novo Mundo. Sob pedido, também desmontamos guarda-roupas e camas antes da mudança e remontamos no imóvel novo."
+  },
+  "faq": [
+    {
+      "p": "Vocês fazem mudança no Portão em dia de show na Live Curitiba ou de shopping cheio?",
+      "r": "Fazemos, mas ajustamos o horário. Em noite de show na Rua Itajubá ou em fim de semana de movimento forte no Palladium, na Kennedy, preferimos carregar pela manhã. Informe a data quando pedir o orçamento e montamos a rota."
+    },
+    {
+      "p": "As obras do Novo Inter 2 atrapalham mudança no Portão?",
+      "r": "Podem atrapalhar na Doracy Cezzarino, na Arthur Bernardes e na Álvaro Vardanega enquanto houver bloqueio. Antes da data, verificamos a situação da rua e, se preciso, paramos numa via próxima e levamos os volumes com carrinho até a porta."
+    },
+    {
+      "p": "Atendem fretes que saem do Portão para outros bairros?",
+      "r": "Sim. Do Portão saímos com facilidade para o Água Verde, a CIC e o resto da cidade. O frete pode começar ou terminar no bairro, e o orçamento sai pelo WhatsApp com base nos itens e nos dois endereços."
+    }
+  ],
+  "proximos": ["agua-verde", "cic"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/blog/melhores-bairros/portao/",
+    "https://www.bandab.com.br/curitiba/porta-de-entrada-ocultismo-e-terra-de-imigrantes-conheca-portao-vila-izabel-e-santa-quiteria/amp/",
+    "https://www.curitiba.pr.gov.br/noticias/quinta-tem-feira-de-artesanato-no-portao-veja-as-atracoes-do-bairro/45786",
+    "https://www.curitiba.pr.gov.br/noticias/obras-do-novo-inter-2-levam-melhorias-viarias-ao-portao-com-mudancas-no-transito/82532",
+    "https://www.gazetadopovo.com.br/vida-e-cidadania/colunistas/nostalgia/portao-o-bairro-cidade-ee757e2yxhybdhizizriefp72"
+  ]
+}
