@@ -1,0 +1,63 @@
+{
+  "slug": "uberaba",
+  "nome": "Uberaba",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Uberaba, Curitiba",
+  "descricao": "Mudança e frete no Uberaba, Curitiba: Uberaba de Cima e de Baixo, Av. das Torres e Salgado Filho. Carreto e montagem. Peça orçamento no WhatsApp.",
+  "h1": "Frete e mudança no Uberaba, Curitiba",
+  "sobre": "O Uberaba, na Regional Cajuru, aparece entre os cinco bairros mais populosos de Curitiba e se estende na direção de São José dos Pinhais. Os moradores o dividem em Uberaba de Cima e Uberaba de Baixo, separados pela Avenida Senador Salgado Filho. Para quem planeja mudança no Uberaba, saber de que lado da avenida fica o imóvel já ajuda a definir o trajeto.",
+  "secoes": [
+    {
+      "h2": "Duas avenidas, dois jeitos de chegar",
+      "paragrafos": [
+        "A Avenida Senador Salgado Filho é a antiga estrada de saída da cidade e concentra o comércio e os serviços do bairro, além do BioParque e do Centro de Especialidades Médicas. Tem movimento constante de carros e ônibus em dia útil.",
+        "A outra é a Avenida Comendador Franco, a Avenida das Torres, que leva ao Aeroporto Afonso Pena, em São José dos Pinhais. O nome vem das torres de energia instaladas a partir de 1931; a avenida foi aberta na faixa de segurança da linha de transmissão. É conhecida pelas churrascarias e pelo viaduto estaiado, e dá acesso ao Parque Centenário da Imigração Japonesa. Para fretes que vão ou vêm de São José dos Pinhais, costuma ser a melhor rota."
+      ]
+    },
+    {
+      "h2": "Sem terminal no bairro: o que muda para quem se muda",
+      "paragrafos": [
+        "O Uberaba não tem terminal de integração próprio. Os moradores usam linhas alimentadoras que levam aos terminais do Hauer, do Carmo e do Boqueirão. Para a mudança isso tem um lado bom: não há canaleta exclusiva cortando as ruas residenciais, e o caminhão consegue parar com mais liberdade do que em bairros cortados por eixos de ônibus.",
+        "O cuidado fica com a própria Salgado Filho em horário comercial e com o fluxo de veículos da Avenida das Torres, que é rota do aeroporto."
+      ]
+    },
+    {
+      "h2": "Herança de imigrantes e moradias variadas",
+      "paragrafos": [
+        "O bairro foi ocupado por imigrantes ucranianos, poloneses e italianos, e muitos nomes de rua e comércios antigos refletem isso. Um exemplo é o Armazém Santa Ana, com mais de 70 anos, na Salgado Filho. A área da Vila Audi-União foi urbanizada pela Cohab.",
+        "Nos anúncios do bairro aparecem casas térreas, sobrados, casas em condomínio e apartamentos. Por isso cada orçamento começa com a mesma pergunta: casa ou prédio, e em qual lado do Uberaba."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Uberaba se divide entre as duas avenidas principais. Para o Centro e bairros a oeste, a Salgado Filho é o caminho natural. Para São José dos Pinhais ou a região do aeroporto, usamos a Avenida das Torres. Os volumes vão amarrados e protegidos com manta, e o horário é combinado antes.",
+    "carreto": "Carreto Uberaba Curitiba atende quem compra material de construção ou móveis na Avenida Comendador Franco, onde há grandes lojas do setor, e precisa levar para casa no mesmo dia. Também fazemos pequenas cargas entre Uberaba de Cima e de Baixo, um trajeto curto de poucos minutos.",
+    "mudanca-residencial": "Na mudança residencial no Uberaba, atendemos casas, sobrados, condomínios horizontais e apartamentos. Em condomínio, o cliente confirma com a portaria o horário permitido. Em sobrado, avaliamos escada e portas para decidir o que desmontar. O orçamento é feito antes, por vídeo ou pela lista de itens.",
+    "mudanca-comercial": "O comércio do bairro está concentrado na Salgado Filho e na Avenida das Torres, incluindo restaurantes e lojas grandes. Mudança comercial nessas vias pede carga fora do horário de pico e atenção ao estacionamento. Desmontamos balcões e prateleiras, embalamos equipamentos e entregamos tudo separado por setor.",
+    "montagem-de-moveis": "Montamos e desmontamos guarda-roupas, camas, mesas, painéis de TV e cozinhas planejadas modulares. Quem acabou de mudar para um condomínio novo no Uberaba pode agendar só a montagem dos móveis comprados, sem contratar o transporte. O atendimento é marcado pelo WhatsApp."
+  },
+  "faq": [
+    {
+      "p": "Qual a diferença entre Uberaba de Cima e Uberaba de Baixo para a mudança?",
+      "r": "A divisão segue a Avenida Senador Salgado Filho. O lado do imóvel define por onde o caminhão entra e qual avenida usamos para sair. Ao pedir orçamento, informe o endereço completo para planejarmos a rota mais curta."
+    },
+    {
+      "p": "Fazem mudança do Uberaba para São José dos Pinhais?",
+      "r": "Sim. O bairro fica no caminho de São José dos Pinhais, e a Avenida das Torres liga os dois municípios. É um dos trajetos mais diretos que atendemos saindo do bairro. Mande a lista de móveis e os dois endereços pelo WhatsApp."
+    },
+    {
+      "p": "Atendem a Vila Audi-União e as áreas mais afastadas do bairro?",
+      "r": "Atendemos todo o Uberaba, incluindo a Vila Audi-União e as ruas próximas ao BioParque e à Avenida das Torres. Se a rua for estreita, usamos um veículo menor ou fazemos a carga na esquina mais próxima."
+    }
+  ],
+  "proximos": ["jardim-das-americas", "boqueirao"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/melhores-bairros/pr-curitiba/uberaba/",
+    "https://www.chavesnamao.com.br/blog/melhores-bairros/uberaba/",
+    "https://www.quintoandar.com.br/guias/?p=496184",
+    "https://www.curitiba.pr.gov.br/3anosdetrabalho/regional/cajuru",
+    "https://www.bandab.com.br/curitiba/educacao-em-destaque-nos-bairros-uberaba-jardim-das-americas-e-guabirotuba/amp/",
+    "https://www.gazetadopovo.com.br/curitiba/como-as-torres-da-av-das-torres-pararam-ali-veja-5-curiosidades-sobre-a-via-8qyy87d4yzduawdm00l37xoko",
+    "https://www.curitiba.pr.gov.br/noticias/de-fazenda-alagada-a-bairro-autossuficiente-boqueirao-e-o-quinto-mais-populoso-de-curitiba/79768"
+  ]
+}

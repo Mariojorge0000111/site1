@@ -1,0 +1,60 @@
+{
+  "slug": "jardim-das-americas",
+  "nome": "Jardim das Américas",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Jardim das Américas, Curitiba",
+  "descricao": "Frete e mudança no Jardim das Américas, Curitiba, perto do Centro Politécnico da UFPR e do shopping. Carreto para estudantes. Orçamento no WhatsApp.",
+  "h1": "Frete e mudança no Jardim das Américas, Curitiba",
+  "sobre": "Pequeno em área, com 3,87 km², o Jardim das Américas fica na Regional Cajuru e é cercado por vias grandes: a BR-277 o separa do Cajuru, a BR-476 do Jardim Botânico, e a Avenida Comendador Franco marca o limite com Guabirotuba e Uberaba. Dentro do bairro está o Centro Politécnico da UFPR, e isso dá ao frete no Jardim das Américas um ritmo próprio, ligado ao calendário universitário.",
+  "secoes": [
+    {
+      "h2": "Centro Politécnico e a mudança de estudante",
+      "paragrafos": [
+        "O Campus III da UFPR, o Centro Politécnico, fica na Avenida Coronel Francisco H. dos Santos e reúne cursos de engenharia, exatas e tecnologia. Perto dele está o Setor de Educação Profissional e Tecnológica, na Rua Dr. Alcides Vieira Arco Verde. A urbanização do bairro, aliás, ganhou força justamente com a instalação do campus.",
+        "Muitos estudantes alugam quartos, quitinetes e apartamentos pequenos no entorno. A demanda de carreto no Jardim das Américas cresce no início e no fim de cada semestre: cama, colchão, escrivaninha, geladeira pequena e algumas caixas. Nessas épocas, vale agendar com antecedência."
+      ]
+    },
+    {
+      "h2": "Rodovias em volta, trânsito calmo por dentro",
+      "paragrafos": [
+        "As rodovias que contornam o bairro facilitam a saída. Pela BR-277 chega-se a São José dos Pinhais e ao litoral; a Avenida das Torres leva ao Aeroporto Afonso Pena. Para mudanças que vão para fora de Curitiba, o Jardim das Américas está bem posicionado.",
+        "Nas ruas internas, o trânsito costuma ser tranquilo na maior parte do dia. Os pontos de atenção são poucos e previsíveis:"
+      ],
+      "lista": [
+        "Avenida Nossa Senhora de Lourdes, onde fica o Shopping Jardim das Américas, com movimento maior no fim de semana.",
+        "Entorno do Centro Politécnico em horário de aula.",
+        "Região do Hospital Erasto Gaertner, referência em tratamento de câncer, na Rua Dr. Ovande do Amaral, com fluxo de pacientes e ambulâncias.",
+        "A feira livre das sextas-feiras, das 7h às 11h, que ocupa parte da via."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Jardim das Américas aproveita as rodovias que contornam o bairro. Para São José dos Pinhais e o litoral, saímos pela BR-277; para o sul de Curitiba, pela BR-476. Dentro do bairro, as ruas calmas permitem parar perto da porta. Itens vão protegidos com manta e presos com cinta.",
+    "carreto": "Carreto Jardim das Américas Curitiba é muito procurado por alunos da UFPR que trocam de república ou de quitinete perto do Centro Politécnico. Levamos poucos volumes em veículo menor, com horário marcado, e ajudamos a descer escadas de sobrados divididos em quartos de aluguel.",
+    "mudanca-residencial": "O bairro tem casas amplas, sobrados e apartamentos. Para casas com terreno grande, o caminhão costuma entrar ou parar em frente ao portão. Em prédios, confirmamos com o condomínio o horário e o uso do elevador. A mudança no Jardim das Américas é orçada antes, a partir de vídeo ou lista de itens.",
+    "mudanca-comercial": "Clínicas, escritórios e lojas do entorno do shopping e do hospital podem ser mudados fora do horário de atendimento. Embalamos computadores, arquivos e mobiliário separadamente, identificamos cada caixa por sala e organizamos a descarga no destino para o retorno ao trabalho ser rápido.",
+    "montagem-de-moveis": "Montamos e desmontamos guarda-roupas, camas, escrivaninhas, estantes e beliches. É comum o estudante comprar móvel desmontado e precisar só da montagem no quarto alugado. Também desmontamos tudo antes de uma mudança para que as peças passem por escadas e corredores estreitos."
+  },
+  "faq": [
+    {
+      "p": "Qual a melhor época para mudança perto do Centro Politécnico?",
+      "r": "Fora do início e do fim do semestre da UFPR, quando muitos estudantes trocam de moradia ao mesmo tempo. Se a sua data cair nesses períodos, peça o orçamento com algumas semanas de antecedência para garantir o horário."
+    },
+    {
+      "p": "Vocês fazem carreto pequeno para estudante?",
+      "r": "Sim. Atendemos cargas pequenas, como cama, colchão, escrivaninha, frigobar e caixas, entre quartos e quitinetes do Jardim das Américas ou para outros bairros. Mande a lista pelo WhatsApp e informe se há escada nos dois endereços."
+    },
+    {
+      "p": "A feira de sexta atrapalha a mudança?",
+      "r": "A feira livre funciona às sextas das 7h às 11h e ocupa parte da via. Se o endereço fica perto dela, marcamos a carga para depois das 11h ou para outro dia. Basta avisar o endereço completo no orçamento."
+    }
+  ],
+  "proximos": ["uberaba", "cajuru"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/blog/pr-curitiba/jardim-das-americas/",
+    "https://www.curitiba.pr.gov.br/3anosdetrabalho/regional/cajuru",
+    "https://www.bandab.com.br/curitiba/educacao-em-destaque-nos-bairros-uberaba-jardim-das-americas-e-guabirotuba/amp/",
+    "https://www.tiendeo.com.br/Lojas/curitiba/renner-avenida-nossa-senhora-de-lourdes/16381",
+    "https://cepsbrasil.com.br/pr/curitiba/jardim-das-americas/avenida-nossa-senhora-de-lourdes-cep-81530020"
+  ]
+}
