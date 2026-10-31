@@ -1,5 +1,6 @@
 ---
-import { SITE, SERVICOS, linkWhatsapp } from '../config';
+import { SITE, linkWhatsapp } from '../config';
+import { SERVICOS } from '../data/servicos';
 import '../styles/global.css';
 
 interface Props {
@@ -7,24 +8,38 @@ interface Props {
   description: string;
   schema?: object | object[];
   ogType?: string;
+  ogImage?: string;
 }
 
-const { title, description, schema, ogType = 'website' } = Astro.props;
+const { title, description, schema, ogType = 'website', ogImage = 'hero' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const fullTitle = title.includes(SITE.nome) ? title : `${title} | ${SITE.nome}`;
+const imagemOg = new URL(`/images/${ogImage}.webp`, Astro.site).href;
 
 const negocio = {
   '@context': 'https://schema.org',
   '@type': 'MovingCompany',
+  '@id': new URL('/#empresa', Astro.site).href,
   name: SITE.nome,
   description: SITE.slogan,
   url: new URL('/', Astro.site).href,
-  areaServed: { '@type': 'City', name: `${SITE.cidade} - ${SITE.estado}` },
+  image: new URL('/images/hero.webp', Astro.site).href,
+  areaServed: [{ '@type': 'City', name: 'Curitiba' }, { '@type': 'AdministrativeArea', name: 'Região Metropolitana de Curitiba' }],
+  openingHours: 'Mo-Sa 07:00-19:00',
   ...(SITE.telefone ? { telephone: SITE.telefone } : {}),
 };
 const schemas = [negocio, ...(schema ? (Array.isArray(schema) ? schema : [schema]) : [])];
+
+const menu = [
+  { href: '/servicos/', nome: 'Serviços' },
+  { href: '/bairros/', nome: 'Bairros atendidos' },
+  { href: '/quem-somos/', nome: 'Quem somos' },
+  { href: '/equipe/', nome: 'Equipe' },
+  { href: '/blog/', nome: 'Blog' },
+  { href: '/contato/', nome: 'Contato' },
+];
+const atual = Astro.url.pathname;
 const wa = linkWhatsapp();
-const externo = wa.startsWith('http');
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -38,31 +53,40 @@ const externo = wa.startsWith('http');
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={imagemOg} />
     <meta property="og:locale" content="pt_BR" />
-    <meta name="theme-color" content="#14213d" />
+    <meta property="og:site_name" content={SITE.nome} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     {schemas.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
   </head>
   <body>
     <header class="topo">
-      <div class="container topo-inner">
-        <a href="/" class="marca" aria-label={`${SITE.nome} — página inicial`}>
-          <span class="marca-icone" aria-hidden="true">🚚</span>
+      <div class="wrap topo-inner">
+        <a href="/" class="marca" aria-label={`${SITE.nome}, página inicial`}>
+          <span class="marca-sinal" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8z"/><circle cx="6.5" cy="17.5" r="1.8" fill="#ffc800"/><circle cx="17.5" cy="17.5" r="1.8" fill="#ffc800"/></svg>
+          </span>
           <span>{SITE.nome}</span>
         </a>
         <nav aria-label="Menu principal">
-          <details class="menu">
+          <ul class="menu">
+            {menu.map((m) => <li><a href={m.href} aria-current={atual.startsWith(m.href) ? 'page' : undefined}>{m.nome}</a></li>)}
+          </ul>
+          <details class="menu-mobile">
             <summary>Menu</summary>
             <ul>
-              {SERVICOS.map((s) => <li><a href={`/${s.slug}/`}>{s.titulo}</a></li>)}
-              <li><a href="/areas-atendidas/">Áreas atendidas</a></li>
-              <li><a href="/blog/">Dicas</a></li>
-              <li><a href="/contato/">Contato</a></li>
+              <li><a href="/">Início</a></li>
+              {menu.map((m) => <li><a href={m.href}>{m.nome}</a></li>)}
             </ul>
           </details>
         </nav>
-        <a class="btn btn-sm" href={wa} {...(externo ? { target: '_blank', rel: 'noopener' } : {})}>Orçamento</a>
+        <a class="btn btn-sm" href={wa} target="_blank" rel="noopener">Orçamento</a>
       </div>
     </header>
 
@@ -71,31 +95,56 @@ const externo = wa.startsWith('http');
     </main>
 
     <footer class="rodape">
-      <div class="container rodape-grid">
-        <div>
-          <p class="rodape-nome">{SITE.nome}</p>
-          <p>{SITE.slogan}.</p>
-          <p>{SITE.horario}</p>
-          {SITE.telefone && <p>Telefone: {SITE.telefone}</p>}
+      <div class="wrap">
+        <div class="rodape-grade">
+          <div>
+            <a href="/" class="marca">
+              <span class="marca-sinal" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8z"/></svg>
+              </span>
+              <span>{SITE.nome}</span>
+            </a>
+            <p>{SITE.slogan}.</p>
+            <p>{SITE.horario}</p>
+            <p><a href={wa} target="_blank" rel="noopener">Orçamento pelo WhatsApp</a></p>
+          </div>
+          <div>
+            <p class="rodape-titulo">Serviços</p>
+            <ul>{SERVICOS.map((s) => <li><a href={`/servicos/${s.slug}/`}>{s.nome}</a></li>)}</ul>
+          </div>
+          <div>
+            <p class="rodape-titulo">Bairros</p>
+            <ul>
+              <li><a href="/bairros/batel/">Batel</a></li>
+              <li><a href="/bairros/agua-verde/">Água Verde</a></li>
+              <li><a href="/bairros/centro/">Centro</a></li>
+              <li><a href="/bairros/portao/">Portão</a></li>
+              <li><a href="/bairros/boqueirao/">Boqueirão</a></li>
+              <li><a href="/bairros/">Todos os bairros</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="rodape-titulo">Empresa</p>
+            <ul>
+              <li><a href="/quem-somos/">Quem somos</a></li>
+              <li><a href="/equipe/">Equipe</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/contato/">Contato</a></li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <p class="rodape-titulo">Serviços</p>
-          <ul>{SERVICOS.map((s) => <li><a href={`/${s.slug}/`}>{s.titulo}</a></li>)}</ul>
-        </div>
-        <div>
-          <p class="rodape-titulo">Site</p>
-          <ul>
-            <li><a href="/areas-atendidas/">Áreas atendidas</a></li>
-            <li><a href="/blog/">Dicas de mudança</a></li>
-            <li><a href="/contato/">Contato</a></li>
-          </ul>
+        <div class="rodape-fim">
+          <span>© {new Date().getFullYear()} {SITE.nome}. Curitiba, PR.</span>
+          <span>Fotos: Pexels</span>
         </div>
       </div>
-      <p class="container copy">© {new Date().getFullYear()} {SITE.nome}</p>
     </footer>
 
-    <a class="whats-flutuante" href={wa} aria-label="Pedir orçamento pelo WhatsApp" {...(externo ? { target: '_blank', rel: 'noopener' } : {})}>
-      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3 29l7.3-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.7-5.7 12.7-12.6C28.7 8.6 23 3 16 3zm0 23.2c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-4.3 1.1 1.2-4.2-.3-.4a10.4 10.4 0 0 1-1.6-5.5C5.3 9.9 10.1 5.2 16 5.2s10.6 4.7 10.6 10.4S21.9 26.2 16 26.2zm5.8-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.8.5-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+    <a class="whats" href={wa} target="_blank" rel="noopener" aria-label="Pedir orçamento pelo WhatsApp">
+      <span class="whats-icone" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="18" height="18"><path fill="#fff" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3 29l7.3-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.7-5.7 12.7-12.6C28.7 8.6 23 3 16 3zm5.8 15.4c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.8.5-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+      </span>
+      <span class="whats-texto">Orçamento</span>
     </a>
   </body>
 </html>

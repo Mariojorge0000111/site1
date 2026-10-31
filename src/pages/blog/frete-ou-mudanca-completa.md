@@ -2,6 +2,8 @@
 layout: ../../layouts/Post.astro
 titulo: "Frete simples ou mudança completa: qual contratar?"
 descricao: "Entenda a diferença entre carreto, frete e mudança completa e descubra qual faz mais sentido para o seu caso, sem pagar por serviço que você não precisa."
+imagem: "/images/blog-frete-ou-mudanca-completa.webp"
+imagemAlt: "Caixas de papelão e uma mochila na sala, no dia da mudança"
 data: "2026-10-29"
 ---
 

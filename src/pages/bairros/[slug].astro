@@ -1,0 +1,136 @@
+---
+import Base from '../../layouts/Base.astro';
+import Cta from '../../components/Cta.astro';
+import Faq from '../../components/Faq.astro';
+import Img from '../../components/Img.astro';
+import { linkWhatsapp } from '../../config';
+import { BAIRROS, TEXTO_PERFIL, bairro as achar, type Bairro } from '../../data/bairros';
+import { PRINCIPAIS } from '../../data/servicos';
+
+export function getStaticPaths() {
+  return BAIRROS.map((b) => ({ params: { slug: b.slug }, props: { b } }));
+}
+const { b } = Astro.props as { b: Bairro };
+const url = new URL(`/bairros/${b.slug}/`, Astro.site).href;
+const local = `${b.prep} ${b.nome}`;              // "no Batel"
+const nomeCurto = b.nome.replace(/ \(.*\)$/, '');  // "Mossunguê (Ecoville)" -> "Mossunguê"
+const proximos = b.proximos.map(achar).filter(Boolean);
+
+// Título de cada serviço com bairro + cidade
+const titulo: Record<string, string> = {
+  frete: `Frete ${local}, Curitiba`,
+  carreto: `Carreto ${local}, Curitiba`,
+  'mudanca-residencial': `Mudança residencial ${local}`,
+  'mudanca-comercial': `Mudança comercial ${local}`,
+  'montagem-de-moveis': `Desmontagem e montagem de móveis ${local}`,
+};
+const abertura: Record<string, string> = {
+  frete: `Precisa levar móveis, eletrodomésticos ou caixas ${local}? O frete em Curitiba é feito com o veículo do tamanho certo, motorista e ajudantes.`,
+  carreto: `Para poucos itens, o carreto ${local} é a opção mais rápida e econômica: utilitário ou caminhonete, muitas vezes no mesmo dia.`,
+  'mudanca-residencial': `A mudança residencial ${local} inclui caminhão baú, equipe, proteção dos móveis e, se você quiser, desmontagem, montagem e embalagem.`,
+  'mudanca-comercial': `Escritórios, lojas e clínicas ${local} mudam com planejamento, de preferência fora do horário de atendimento, para não parar o negócio.`,
+  'montagem-de-moveis': `Guarda-roupas, camas, mesas e estantes desmontados ${local} e montados no novo endereço, com as ferragens identificadas por móvel.`,
+};
+
+const faq = [
+  { p: `Quanto custa um frete ${local} em Curitiba?`, r: `Depende do volume, da distância até o destino, de escadas ou elevador e do número de ajudantes. Mande os itens e os endereços pelo WhatsApp e receba o valor fechado antes de confirmar.` },
+  { p: `Vocês fazem mudança ${local} no fim de semana?`, r: `Sim, conforme a agenda e as regras do condomínio. Sábados costumam ser bem procurados, então agende com antecedência.` },
+  { p: `Atendem mudanças ${local} para outros bairros e cidades?`, r: `Sim. Levamos sua mudança ${local} para qualquer bairro de Curitiba e para a região metropolitana, como São José dos Pinhais, Pinhais, Colombo e Araucária.` },
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Frete e mudança ${local}, Curitiba`,
+    serviceType: 'Frete e mudança',
+    areaServed: { '@type': 'Place', name: `${nomeCurto}, Curitiba - PR` },
+    provider: { '@id': new URL('/#empresa', Astro.site).href },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: `Serviços ${local}`,
+      itemListElement: PRINCIPAIS.map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: titulo[s.slug] } })),
+    },
+    url,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.p, acceptedAnswer: { '@type': 'Answer', text: f.r } })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: new URL('/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: 'Bairros atendidos', item: new URL('/bairros/', Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: nomeCurto, item: url },
+    ],
+  },
+];
+const mensagem = `Olá! Vim pelo site e quero um orçamento de frete/mudança ${local}, Curitiba.`;
+---
+<Base
+  title={`Frete e Mudança ${local}, Curitiba`}
+  description={`Frete, carreto, mudança residencial e comercial e montagem de móveis ${local}, Curitiba. Preço combinado antes e horário marcado. Peça seu orçamento pelo WhatsApp.`}
+  schema={schema}
+>
+  <section class="hero-pagina">
+    <div class="wrap">
+      <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a> / <a href="/bairros/">Bairros atendidos</a> / {nomeCurto}</nav>
+      <h1>Frete e mudança {local}, Curitiba</h1>
+      <p class="lead" style="margin-top:18px">{b.sobre}</p>
+      <div class="acoes"><a class="btn" href={linkWhatsapp(mensagem)} target="_blank" rel="noopener">Pedir orçamento no WhatsApp</a></div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-bottom:24px">
+    <nav aria-label="Serviços neste bairro">
+      <ul class="bairros-lista">
+        {PRINCIPAIS.map((s) => <li><a href={`#${s.slug}`}>{s.nome}</a></li>)}
+      </ul>
+    </nav>
+  </section>
+
+  <section class="wrap">
+    {PRINCIPAIS.map((s) => (
+      <article class="servico-bairro" id={s.slug}>
+        <Img nome={s.imagem} alt={s.imagemAlt} />
+        <div>
+          <h2>{titulo[s.slug]}</h2>
+          <p>{abertura[s.slug]}</p>
+          <p>{TEXTO_PERFIL[s.slug][b.perfil]}</p>
+          <p><a class="link" href={`/servicos/${s.slug}/`}>Como funciona o serviço de {s.nome.toLowerCase()}</a></p>
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <section class="secao secao-preta" style="margin-top:56px">
+    <div class="texto">
+      <h2>Dica para quem vai mudar {local}</h2>
+      <p class="lead" style="margin-top:18px">{b.dica}</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="texto">
+      <h2 style="margin-bottom:28px">Perguntas sobre frete e mudança {local}</h2>
+      <Faq itens={faq} />
+    </div>
+  </section>
+
+  {proximos.length > 0 && (
+    <section class="secao secao-cinza">
+      <div class="wrap">
+        <h2 style="margin-bottom:28px">Bairros próximos</h2>
+        <ul class="bairros-lista">
+          {proximos.map((p) => <li><a href={`/bairros/${p.slug}/`}>Frete e mudança {p.prep} {p.nome}</a></li>)}
+          <li><a href="/bairros/">Todos os bairros</a></li>
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <Cta titulo={`Mudança ${local}? Peça seu orçamento.`} mensagem={mensagem} />
+</Base>

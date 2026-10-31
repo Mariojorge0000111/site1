@@ -2,6 +2,8 @@
 layout: ../../layouts/Post.astro
 titulo: "Como embalar louças e copos para mudança sem quebrar nada"
 descricao: "Passo a passo para embalar pratos, copos, taças e travessas para a mudança, com os materiais certos e o jeito certo de montar as caixas."
+imagem: "/images/blog-como-embalar-loucas-para-mudanca.webp"
+imagemAlt: "Mulher embalando pratos com plástico-bolha na cozinha"
 data: "2026-10-30"
 ---
 

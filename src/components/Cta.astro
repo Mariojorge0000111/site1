@@ -7,17 +7,17 @@ interface Props {
   mensagem?: string;
 }
 const {
-  titulo = 'Peça seu orçamento sem compromisso',
-  texto = 'Conte o que precisa levar, de onde e para onde. A resposta vem rápido, pelo WhatsApp.',
+  titulo = 'Vai mudar? Peça seu orçamento.',
+  texto = 'Conte o que precisa levar, de onde e para onde. Você recebe o valor pelo WhatsApp antes de fechar qualquer coisa.',
   mensagem,
 } = Astro.props;
-const wa = linkWhatsapp(mensagem);
-const externo = wa.startsWith('http');
 ---
-<section class="container">
-  <div class="cta">
-    <h2>{titulo}</h2>
-    <p>{texto}</p>
-    <a class="btn" href={wa} {...(externo ? { target: '_blank', rel: 'noopener' } : {})}>Chamar no WhatsApp</a>
+<section class="secao cta-amarelo">
+  <div class="wrap cta-grade">
+    <div>
+      <h2>{titulo}</h2>
+      <p>{texto}</p>
+    </div>
+    <a class="btn btn-preto" href={linkWhatsapp(mensagem)} target="_blank" rel="noopener">Pedir orçamento no WhatsApp</a>
   </div>
 </section>

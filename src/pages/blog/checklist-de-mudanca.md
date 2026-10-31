@@ -2,6 +2,8 @@
 layout: ../../layouts/Post.astro
 titulo: "Checklist de mudança: o que fazer semana a semana"
 descricao: "Um checklist de mudança prático, do mês anterior até o dia seguinte, para não esquecer nada e chegar na casa nova sem correria."
+imagem: "/images/blog-checklist-de-mudanca.webp"
+imagemAlt: "Homem marcando itens numa prancheta entre caixas de mudança"
 data: "2026-10-31"
 ---
 
