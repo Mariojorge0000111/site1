@@ -1,0 +1,62 @@
+{
+  "slug": "cic",
+  "nome": "CIC",
+  "prep": "na",
+  "titulo": "Frete e Mudança na CIC (Cidade Industrial), Curitiba",
+  "descricao": "Frete e mudança na CIC, Cidade Industrial de Curitiba: casas nas vilas, empresas na CIC Norte e Sul e rotas pelo Contorno Sul. Peça seu orçamento já.",
+  "h1": "Frete e mudança na CIC, Cidade Industrial de Curitiba",
+  "sobre": "A CIC, Cidade Industrial de Curitiba, foi planejada nos anos 1970 para receber fábricas e virou o maior bairro da cidade em área, com mais de 43 km². Também é o mais populoso: o Censo 2022 contou mais de 170 mil moradores. Fazer frete na CIC é percorrer distâncias de cidade média sem sair do bairro, entre vilas residenciais e áreas industriais.",
+  "secoes": [
+    {
+      "h2": "CIC Central, Norte e Sul: três realidades no mesmo bairro",
+      "paragrafos": [
+        "A parte central da CIC é mais residencial, enquanto as porções Norte e Sul concentram as indústrias. Um carreto na CIC pode sair de uma casa na Vila Nossa Senhora da Luz e terminar num galpão perto do Contorno Sul. Antes do orçamento, perguntamos a vila ou a referência mais próxima, porque só o nome do bairro não diz onde fica o endereço.",
+        "A Vila Nossa Senhora da Luz, de 1966, foi o primeiro conjunto habitacional da Cohab em Curitiba e no Paraná, com cerca de 2.100 casas. O bairro tem ainda a Vila Verde, a Vila Barigui e o Conjunto Diadema, entre outras áreas de ruas residenciais. Muita gente aluga casa ali para ficar perto do trabalho nas empresas da região."
+      ]
+    },
+    {
+      "h2": "Contorno Sul, JK e terminais: como circular pela CIC",
+      "paragrafos": [
+        "O Contorno Sul, trecho urbano da BR-376 que integra o projeto Linha Verde, é uma das vias de grande fluxo que cortam o bairro. A Avenida Juscelino Kubitschek de Oliveira é outro eixo e dá acesso ao Parque Diadema.",
+        "O Terminal CIC, na Rua Pedro Gusso, e o Terminal Caiuá, na Rua Raul Pompéia, organizam o transporte local. Partes do bairro também são atendidas pelos terminais Campo Comprido, Fazendinha, Portão e Capão Raso, o que mostra como a CIC encosta em vários lados da cidade. A oeste, do mirante do Parque Passaúna, já se avista Campo Largo. A Rua Raul Pompéia, que passa pelo Terminal Caiuá, também leva ao Parque dos Tropeiros, e a Rua Pedro Gusso concentra serviços como a Faculdade Anchieta e a unidade de saúde Oswaldo Cruz."
+      ]
+    },
+    {
+      "h2": "Ruas em obra e o que observar antes da mudança",
+      "paragrafos": [
+        "Desde 2017, a regional CIC recebeu mais de 96 km de pavimentação nova. Em dezembro de 2023, por exemplo, 21 ruas da Vila Barigui II passaram por recapeamento. O Ligeirão Leste/Oeste, que vai ligar Pinhais à CIC Norte, também avança por etapas. Num bairro desse tamanho pode haver trecho em obra, então confirmamos o acesso na véspera da mudança na CIC e ajustamos o ponto de parada se for preciso."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "Frete na CIC vai de eletrodoméstico para uma casa de vila até carga leve para empresa da área industrial. Combinamos ponto de carga, horário de portaria e, quando é empresa, quem assina o recebimento. Como as distâncias internas são grandes, traçamos a rota pelo Contorno Sul, pela JK ou pela Pedro Gusso, conforme o endereço.",
+    "carreto": "Carreto na CIC atende bem quem aluga casa perto das empresas e se muda com poucos móveis: cama, geladeira, fogão e algumas caixas. Um veículo menor resolve e circula com facilidade pelas ruas das vilas. Informe a vila ou um ponto de referência, como terminal ou parque próximo, para a equipe chegar mais rápido.",
+    "mudanca-residencial": "A mudança residencial na CIC muitas vezes envolve casa, e não prédio, em vilas como Nossa Senhora da Luz, Vila Verde ou Barigui. Verificamos a largura da rua, o portão e onde o caminhão pode ficar sem fechar a garagem do vizinho. Também fazemos mudanças da CIC para qualquer outro bairro de Curitiba.",
+    "mudanca-comercial": "Na CIC, mudança comercial pode ser escritório administrativo de indústria, loja de rua ou pequeno depósito. Planejamos com o responsável a ordem de retirada, embalamos computadores e arquivos e marcamos a descarga dentro do horário de portaria da empresa. Para máquinas pesadas que exigem guindaste ou empilhadeira, avisamos já no orçamento o que conseguimos levar.",
+    "montagem-de-moveis": "Quem aluga casa na CIC e compra móveis desmontados pode pedir a montagem no endereço: camas, guarda-roupas, armários de cozinha e estantes. Na mudança, desmontamos o que não passa pela porta e remontamos no destino, seja na própria CIC ou no Augusta, no Riviera e no São Miguel, bairros da mesma regional."
+  },
+  "faq": [
+    {
+      "p": "A CIC é muito grande. Como vocês encontram o endereço?",
+      "r": "Pedimos rua, número e a vila ou referência mais próxima, como um terminal, parque ou escola. Com isso traçamos a rota antes de sair. Em área industrial, pedimos também o nome da empresa e qual portaria usar para entrar."
+    },
+    {
+      "p": "Vocês fazem frete para empresas na CIC Norte e na CIC Sul?",
+      "r": "Fazemos frete de cargas que podem ir em caminhão de mudança, como móveis de escritório, caixas e equipamentos leves. Combinamos o horário de portaria e os dados para liberar a entrada. Para cargas industriais pesadas, avisamos antes se o serviço não for adequado."
+    },
+    {
+      "p": "Vocês atendem os outros bairros da Regional CIC?",
+      "r": "Sim. Além da CIC, a regional reúne Augusta, Riviera e São Miguel, e atendemos todos. Também fazemos fretes e mudanças entre a CIC e bairros próximos, como Portão, Mossunguê e Santa Felicidade. O orçamento considera os dois endereços e o volume."
+    }
+  ],
+  "proximos": ["portao", "mossungue", "santa-felicidade"],
+  "fontes": [
+    "https://www.curitiba.pr.gov.br/noticias/cic-tem-mais-moradores-que-cidades-como-guarapuava-e-paranagua/42472",
+    "https://www.chavesnamao.com.br/blog/melhores-bairros/cidade-industrial/",
+    "https://www.chavesnamao.com.br/melhores-bairros/pr-curitiba/cidade-industrial/",
+    "https://www.uninter.com/noticias/?p=72787",
+    "https://www.curitiba.pr.gov.br/3anosdetrabalho/regional/cic",
+    "https://www.curitiba.pr.gov.br/noticias/semana-comeca-com-obras-em-21-ruas-da-vila-barigui-da-cidade-industrial-de-curitiba/71748",
+    "https://www.curitiba.pr.gov.br/noticias/eduardo-pimentel-entrega-54-km-de-obras-do-brt-lesteoeste-no-cajuru/82424"
+  ]
+}
