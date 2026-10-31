@@ -20,7 +20,7 @@ const [destaque, ...resto] = posts;
   </section>
 
   <section class="wrap" style="padding-bottom:96px">
-    <a class="card dividido" href={destaque.url} style="margin-bottom:64px">
+    <a class="card dividido" href={destaque.url} style="margin-bottom:64px;display:grid">
       <img src={destaque.imagem} alt={destaque.imagemAlt} width="1200" height="800" />
       <div>
         <h2 style="font-size:clamp(1.8rem,3.6vw,2.6rem)">{destaque.titulo}</h2>
