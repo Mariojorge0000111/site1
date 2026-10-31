@@ -1,14 +1,15 @@
 ---
 layout: ../../layouts/Post.astro
 titulo: "Pequenos fretes em Curitiba: quando usar e como contratar"
-descricao: "Pequenos fretes em Curitiba: o que cabe no utilitário e na caminhonete, como contratar com segurança e cuidar da geladeira. Peça seu orçamento."
+descricao: "Pequenos fretes em Curitiba: o que cabe no utilitário e na caminhonete, como contratar com segurança, cuidar da geladeira e evitar erros comuns."
 data: "2026-10-30"
 imagem: "/images/blog-pequenos-fretes-em-curitiba.webp"
 imagemAlt: "Dois carregadores colocando caixas dentro de uma van"
 palavraChave: "pequenos fretes em Curitiba"
+atualizado: "2026-10-31"
 ---
 
-Pequenos fretes em Curitiba resolvem aquela situação em que você não precisa de uma mudança inteira, mas também não consegue levar o item no carro. Uma geladeira nova, um sofá que vai para a casa de um parente, a mobília de um quarto de estudante. Neste artigo você vê o que conta como pequeno frete, qual veículo escolher, como contratar sem dor de cabeça e quais cuidados tomar com eletrodomésticos.
+Pequenos fretes em Curitiba resolvem aquela situação em que você não precisa de uma mudança inteira, mas também não consegue levar o item no carro. Uma geladeira nova, um sofá que vai para a casa de um parente, a mobília de um quarto de estudante. Neste artigo você vê o que conta como pequeno frete, qual veículo escolher, como contratar com segurança e quais cuidados tomar com eletrodomésticos.
 
 ## O que é pequeno frete
 
@@ -29,6 +30,18 @@ O frete pequeno é a escolha certa quando:
 - Vai se desfazer de móveis e quer levá-los para doação.
 - Tem uma empresa pequena e precisa transportar mercadoria ou equipamento pontualmente.
 
+## Exemplos práticos de pequeno frete em Curitiba
+
+Para ter uma ideia do que entra nessa categoria, alguns pedidos típicos:
+
+- **Máquina de lavar nova** retirada numa loja do [Portão](/bairros/portao/) e levada para um apartamento no Novo Mundo.
+- **Sofá de dois lugares** vendido para alguém no Cajuru, saindo de uma casa no Boqueirão.
+- **Mobília de quarto de estudante**: cama de solteiro, escrivaninha, cadeira e algumas caixas, do Centro para o Prado Velho.
+- **Móveis para doação** levados de um apartamento no Bigorrilho para uma instituição.
+- **Equipamento de uma pequena loja**, como expositores e prateleiras, num trajeto curto.
+
+Em todos esses casos, o trajeto é único, o volume cabe num veículo pequeno ou médio e o serviço termina em poucas horas.
+
 ## Utilitário ou caminhonete: o que cabe em cada um
 
 A escolha do veículo depende do tamanho e do formato dos itens, não só da quantidade.
@@ -40,6 +53,17 @@ A escolha do veículo depende do tamanho e do formato dos itens, não só da qua
 | Caminhão 3/4 | Mobília de um quarto ou kitnet inteira | Casos de poucos itens (sai caro sem necessidade) |
 
 Duas observações práticas. Furgão fechado protege da chuva, o que conta muito em Curitiba. Caminhonete aberta leva itens altos, mas precisa de lona e amarração. Se a previsão for de chuva, pergunte se a empresa tem lona e como vai proteger a carga.
+
+## Medidas e acessos: o que conferir antes
+
+O pequeno frete costuma falhar não no transporte, mas na passagem do item pela porta. Antes de fechar o serviço, meça:
+
+- **O item:** altura, largura e profundidade. Em sofás, meça também com o encosto e os pés.
+- **A porta de entrada e as internas** por onde o item vai passar.
+- **O elevador:** largura, profundidade, altura da porta e a diagonal interna.
+- **A escada:** largura, altura do teto no patamar e se há curva.
+
+Se o item não passa, há três caminhos: desmontar, inclinar com técnica ou içar pela janela. Para itens que não passam de jeito nenhum, existe o serviço de [içamento](/servicos/icamento/), que exige equipe e equipamento próprios.
 
 ## Como contratar pequenos fretes com segurança
 
@@ -104,7 +128,16 @@ Um frete pequeno rende mais quando tudo está pronto na chegada do veículo. Ant
 - Libere o caminho: tire tapetes soltos e objetos do corredor.
 - Tenha à mão o contato de quem vai receber no destino.
 
-Esses cuidados reduzem o tempo de serviço e o risco de dano.
+Esses cuidados reduzem o tempo de serviço e o risco de dano. Se o frete for numa data concorrida, como sábado ou fim de mês, confirme o horário na véspera por mensagem e mande de novo os dois endereços. Isso evita desencontro e dá tempo de ajustar algo se o vendedor, a loja ou quem vai receber mudar de planos.
+
+## Erros comuns em pequenos fretes
+
+- **Fechar só pelo menor preço.** O valor baixo às vezes não inclui ajudante nem manta.
+- **Não avisar sobre escada.** O motorista chega sozinho e não consegue subir uma geladeira três andares.
+- **Deixar a geladeira ligada até a hora do frete.** Ela molha o veículo e os outros itens.
+- **Passar endereço incompleto.** Sem número e ponto de referência, o motorista perde tempo procurando.
+- **Não ter ninguém no destino.** O item fica na calçada ou o frete volta.
+- **Levar objetos soltos sem caixa.** Itens pequenos soltos se perdem ou quebram no trajeto.
 
 ## Atendimento em Curitiba e região metropolitana
 
@@ -140,4 +173,4 @@ Depende da empresa. Muitos incluem só o motorista. Pergunte antes e peça ajuda
 
 Itens grandes, como guarda-roupa e cama box, geralmente sim. Desmontar antes reduz o tempo de serviço e o risco de dano.
 
-Precisa levar poucos itens de um lugar para outro? Peça seu orçamento pelo WhatsApp no botão desta página, com fotos e endereços, ou fale com a gente pela página de [contato](/contato/).
+Precisa levar poucos itens de um lugar para outro? Peça seu orçamento pelo WhatsApp no botão desta página, com fotos e endereços.

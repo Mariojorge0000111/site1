@@ -1,0 +1,65 @@
+{
+  "slug": "agua-verde",
+  "nome": "Água Verde",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Água Verde, Curitiba",
+  "descricao": "Mudança no Água Verde com data fora dos jogos da Arena da Baixada e rota pela República Argentina ou Iguaçu. Solicite orçamento pelo WhatsApp.",
+  "h1": "Frete e mudança no Água Verde, Curitiba",
+  "sobre": "Com cerca de 50 mil moradores em uns 5 km², o Água Verde mistura casas, sobrados, prédios mais antigos e lançamentos de alto padrão. Também abriga a Arena da Baixada, casa do Athletico Paranaense, que muda o trânsito em dias de jogo e show. Antes de marcar uma mudança no Água Verde, olhamos o calendário do estádio e o tipo de imóvel de origem e destino.",
+  "secoes": [
+    {
+      "h2": "Dia de jogo ou show na Arena da Baixada: escolha outra data",
+      "paragrafos": [
+        "Em eventos no estádio, a prefeitura fecha cruzamentos do entorno. No show de 28 de outubro de 2026, por exemplo, os bloqueios começaram às 14h na Rua Buenos Aires com Getúlio Vargas e Brasílio Itiberê, e na Engenheiros Rebouças com Buenos Aires. Moradores entram com comprovante de endereço, mas um caminhão de mudança dificilmente encontra espaço para parar.",
+        "Por isso, quem mora perto da Praça Afonso Botelho, a chamada Praça do Athletico, deve evitar datas de partida. Quando o cliente informa o endereço, conferimos se há evento marcado e sugerimos outro dia."
+      ]
+    },
+    {
+      "h2": "Casas, sobrados e prédios de várias épocas",
+      "paragrafos": [
+        "O bairro tem zoneamento residencial com parte em ZR-3 e ZR-4, o que explica a convivência de sobrados e casas com edifícios de vários andares. Prédios mais antigos podem ter escadas estreitas e elevadores pequenos, enquanto os empreendimentos novos costumam exigir agendamento com a portaria.",
+        "Em casa ou sobrado, a atenção vai para escadas internas, portões e a vaga para o caminhão na frente do lote. Em apartamento, verificamos as medidas do elevador e a regra do condomínio. Essa diferença pesa no tamanho da equipe e no tempo do serviço."
+      ],
+      "lista": [
+        "Sobrado: avaliamos se o móvel passa pela escada ou precisa ser desmontado",
+        "Prédio antigo: conferimos elevador e largura dos corredores",
+        "Lançamento novo: seguimos o regulamento interno de mudança"
+      ]
+    },
+    {
+      "h2": "Vias de acesso, lojas de móveis e feira de quinta",
+      "paragrafos": [
+        "As saídas mais usadas são a Sete de Setembro e a Avenida Iguaçu ao norte, a Presidente Kennedy ao sul e a República Argentina, na divisa com a Vila Izabel. A Sete de Setembro e a República Argentina recebem as linhas expressas Santa Cândida/Capão Raso e Pinheirinho/Rui Barbosa, com estações-tubo próximas.",
+        "Na Iguaçu, na Getúlio Vargas e na República Argentina ficam várias lojas de móveis e decoração, o que gera muito pedido de frete no Água Verde. Às quintas, das 17h às 22h, a Feira Noturna ocupa o trecho entre a Rua Guararapes e a República Argentina, então evitamos descargas ali nesse horário."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "Grande parte do frete no Água Verde sai das lojas de móveis e decoração da Avenida Iguaçu, da Getúlio Vargas e da República Argentina. Retiramos a compra, protegemos com manta e entregamos no seu endereço, no bairro ou em outra parte da cidade. Se o destino fica perto da Arena, combinamos um horário sem evento no estádio.",
+    "carreto": "Carreto no Água Verde, Curitiba, é uma boa saída para levar uma geladeira, um guarda-roupa ou algumas caixas entre apartamentos do bairro, ou até o Batel e o Rebouças, que fazem divisa. O veículo menor estaciona com mais facilidade nas ruas residenciais e evita os trechos da Sete de Setembro com corredor de ônibus.",
+    "mudanca-residencial": "A mudança residencial no Água Verde varia bastante: um sobrado com escada interna pede outra estratégia que um apartamento em prédio novo. Na visita ou pelas fotos, avaliamos acessos, desmontagens e tamanho da equipe. Também conferimos se a data coincide com jogo ou show na Arena da Baixada, para não esbarrar nos bloqueios.",
+    "mudanca-comercial": "Escritórios corporativos e salas comerciais fazem parte do Água Verde, ao lado de clínicas e consultórios. Na mudança comercial, retiramos mesas, cadeiras, arquivos e equipamentos em horário acordado com o prédio, de preferência fora do expediente. Os volumes vão identificados por setor, para facilitar a organização no novo endereço.",
+    "montagem-de-moveis": "Quem compra móveis nas lojas da Iguaçu ou da República Argentina muitas vezes recebe tudo em caixa. Fazemos a montagem sob pedido, junto com o frete ou separadamente. Em mudanças de sobrado, desmontamos camas e armários que não passam pela escada e remontamos no destino, com as ferragens identificadas."
+  },
+  "faq": [
+    {
+      "p": "Posso fazer mudança perto da Arena da Baixada em dia de jogo?",
+      "r": "Não é recomendado. A prefeitura bloqueia cruzamentos do entorno, como Buenos Aires com Getúlio Vargas e Brasílio Itiberê, horas antes do evento. Moradores passam com comprovante, mas o caminhão não tem onde parar. Sugerimos outra data."
+    },
+    {
+      "p": "Vocês fazem frete de móveis comprados na Avenida Iguaçu?",
+      "r": "Sim. Retiramos móveis e itens de decoração em lojas da Iguaçu, da Getúlio Vargas e da República Argentina e entregamos no endereço que você indicar. Se precisar, montamos no local depois da entrega."
+    },
+    {
+      "p": "A Feira Noturna atrapalha a mudança no Água Verde?",
+      "r": "Só no trecho entre a Rua Guararapes e a República Argentina, às quintas, das 17h às 22h. Se o seu endereço fica ali, marcamos a descarga pela manhã ou em outro dia da semana."
+    }
+  ],
+  "proximos": ["batel", "centro", "reboucas", "portao"],
+  "fontes": [
+    "https://www.quintoandar.com.br/regioes-atendidas/agua-verde-curitiba-pr-brasil-jpqwto45p7",
+    "https://www.chavesnamao.com.br/blog/pr-curitiba/agua-verde/",
+    "https://www.curitiba.pr.gov.br/noticias/ruas-proximas-a-arena-da-baixada-terao-alteracoes-para-o-show-do-iron-maiden/85630",
+    "https://www.bandab.com.br/curitiba/novidades-regionais-cidade-curitiba/amp/"
+  ]
+}

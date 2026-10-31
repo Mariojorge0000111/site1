@@ -1,0 +1,68 @@
+{
+  "slug": "pinheirinho",
+  "nome": "Pinheirinho",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Pinheirinho, Curitiba",
+  "descricao": "Frete, carreto e mudança no Pinheirinho, Curitiba, perto da Winston Churchill, do terminal e do início da Linha Verde. Solicite orçamento no WhatsApp.",
+  "h1": "Frete e mudança no Pinheirinho, Curitiba",
+  "sobre": "O Pinheirinho é onde começa a Linha Verde e onde fica o maior terminal de ônibus de Curitiba. São cerca de 50 mil habitantes em 10,7 km², com vizinhos como Capão Raso, CIC, Sítio Cercado, Tatuquara e Xaxim. Para quem faz frete no Pinheirinho, a regra é simples: o bairro é ótimo de sair, mas o entorno da Winston Churchill exige paciência.",
+  "secoes": [
+    {
+      "h2": "Winston Churchill: comércio popular e terminal no mesmo eixo",
+      "paragrafos": [
+        "A Avenida Winston Churchill concentra o principal comércio popular da zona sul. Há lojas de rua, supermercados, o Shopping Pinheirinho (no número 2630) e o Terminal de Integração Pinheirinho, que reúne 38 linhas, quatro delas metropolitanas. Dali partem ligeirões para o Centro, para a Rui Barbosa e para o Bairro Alto, além do Circular Sul.",
+        "Esse conjunto gera movimento de ônibus, carros e pedestres o dia inteiro, com pico no início da manhã e no fim da tarde. Para mudança em imóvel próximo à avenida, marcamos a carga para o meio da manhã ou para o sábado à tarde, quando o fluxo cai."
+      ]
+    },
+    {
+      "h2": "Saídas rápidas para o resto da cidade e da região",
+      "paragrafos": [
+        "A Linha Verde nasce no Pinheirinho e segue cerca de 22 km até o Atuba, no norte. É a rota que usamos para mudanças em direção ao Xaxim, ao Jardim Botânico ou ao Bairro Alto. A Rua Nicola Pellanda é outra via de acesso importante dentro do bairro.",
+        "Ao sul do bairro a BR-116 continua como rodovia, o que facilita fretes para Fazenda Rio Grande e outras cidades ao sul da região metropolitana. Para quem está se mudando de ou para a CIC, o caminho é curto."
+      ],
+      "lista": [
+        "Linha Verde: eixo norte–sul com biarticulados e ligeirões.",
+        "Av. Winston Churchill: comércio, shopping e terminal.",
+        "Rua Nicola Pellanda: acesso interno e ligação com bairros vizinhos.",
+        "Rua Lothário Boutin: onde ficam o Hospital do Idoso Zilda Arns e a Praça Zumbi dos Palmares."
+      ]
+    },
+    {
+      "h2": "Casas, sobrados e um bairro com dois séculos",
+      "paragrafos": [
+        "O nome vem dos pinheiros plantados por volta de 1800 para marcar entradas e divisas das fazendas. Foi no Pinheirinho que, em 1974, nasceu a rede de supermercados Condor, a partir de um mercado de 110 m². A Rua da Cidadania do bairro funciona desde 1996 e atende a Regional Pinheirinho, que reúne também Capão Raso, Fanny, Lindóia e Novo Mundo.",
+        "Nas ruas residenciais predominam casas e sobrados, com alguns condomínios de prédios. É comum a mudança sair direto do portão da garagem."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Pinheirinho tem uma vantagem: a Linha Verde começa aqui. Isso encurta qualquer trajeto para o norte e o leste da cidade. Para cargas que saem de lojas da Winston Churchill, planejamos a parada numa rua lateral, longe da área do terminal, e protegemos os itens com manta e cinta.",
+    "carreto": "Carreto Pinheirinho Curitiba é muito pedido por quem compra no comércio popular da Winston Churchill e precisa levar o móvel ou o eletrodoméstico para casa no mesmo dia. Também atendemos pequenas cargas para Fazenda Rio Grande e bairros da CIC, aproveitando a saída pela BR-116.",
+    "mudanca-residencial": "Na mudança no Pinheirinho, o imóvel típico é casa ou sobrado com garagem. Em sobrados, avaliamos a escada e a necessidade de desmontar camas e roupeiros. Em condomínio, pedimos ao cliente que confirme dia e horário com a portaria. O orçamento é passado antes, com base no volume informado.",
+    "mudanca-comercial": "O Pinheirinho tem muito comércio de rua. Mudar uma loja de roupa, uma ótica ou uma papelaria da região exige cuidado com mercadoria e vitrine. Fazemos o transporte fora do horário de venda, separando estoque, mobiliário e equipamentos, e entregamos tudo identificado no novo ponto.",
+    "montagem-de-moveis": "Desmontamos e montamos guarda-roupas, cômodas, camas, racks e armários de cozinha. Muitos clientes do Pinheirinho compram móveis nas lojas do bairro e pedem só a montagem em casa; esse serviço pode ser agendado separado da mudança, pelo WhatsApp."
+  },
+  "faq": [
+    {
+      "p": "Fazer mudança perto do Terminal Pinheirinho é complicado?",
+      "r": "O entorno da Winston Churchill tem muito ônibus e pedestre, principalmente nos horários de pico. Marcamos a carga para horários mais calmos e paramos em rua lateral, levando os volumes com carrinho. Assim a mudança não atrapalha o trânsito nem atrasa."
+    },
+    {
+      "p": "Vocês fazem frete do Pinheirinho para Fazenda Rio Grande?",
+      "r": "Sim. No Pinheirinho a Linha Verde dá lugar à BR-116, que segue para Fazenda Rio Grande e outras cidades ao sul. Informe os dois endereços e a lista de itens para montarmos o orçamento completo antes da data."
+    },
+    {
+      "p": "Atendem mudanças do Pinheirinho para o Sítio Cercado ou o Xaxim?",
+      "r": "Atendemos. São bairros vizinhos, com trajeto curto pela Linha Verde ou pelas ruas internas. Mudanças pequenas entre eles costumam ser feitas em uma só viagem."
+    }
+  ],
+  "proximos": ["xaxim", "sitio-cercado", "cic"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/blog/pr-curitiba/pinheirinho/",
+    "https://www.quintoandar.com.br/regioes-atendidas/pinheirinho-curitiba-pr-brasil-1d4jtmezdw",
+    "https://www.bandab.com.br/curitiba/pinheirinho-capao-raso-e-xaxim-bom-pra-morar-e-tem-tudo-perto-ate-emprego/amp/",
+    "https://www.bandab.com.br/curitiba/linha-verde-ganha-ligeirao-que-interliga-18-linhas-e-integra-transporte-de-norte-a-sul/amp/",
+    "https://www.curitiba.pr.gov.br/noticias/rua-da-cidadania-do-pinheirinho-completa-28-anos-servindo-a-populacao/75258",
+    "https://www.curitiba.pr.gov.br/noticias/regional-pinheirinho-vota-no-fala-curitiba-e-define-o-que-vai-ser-feito-nos-cinco-bairros/79006"
+  ]
+}
