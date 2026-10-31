@@ -1,0 +1,70 @@
+{
+  "secoes": [
+    {
+      "h2": "Como funciona o frete em Curitiba, passo a passo",
+      "paragrafos": [
+        "O processo é simples e quase todo resolvido por mensagem. Quanto mais claro o pedido, mais preciso o orçamento."
+      ],
+      "lista": [
+        "Você manda a lista de itens, fotos dos maiores e os dois endereços.",
+        "Informa andar, escada, elevador e onde o veículo pode parar.",
+        "Recebe o valor fechado e a indicação do veículo.",
+        "Confirma a data e o horário.",
+        "No dia, a equipe protege, carrega, transporta e descarrega no cômodo indicado."
+      ]
+    },
+    {
+      "h2": "Qual veículo usar no seu frete",
+      "paragrafos": [
+        "O veículo certo evita duas viagens ou pagar por espaço vazio. A tabela abaixo é uma referência; o volume real é confirmado pelas fotos."
+      ],
+      "tabela": {
+        "cabecalho": ["Veículo", "O que costuma caber", "Quando usar"],
+        "linhas": [
+          ["Utilitário (tipo Fiorino)", "Um eletrodoméstico, algumas caixas, móveis pequenos", "Compras de loja, um ou dois itens"],
+          ["Caminhonete", "Sofá, geladeira, cama de casal desmontada", "Peças grandes que não precisam de baú fechado"],
+          ["Caminhão 3/4", "Quarto completo ou kitnet", "Frete com vários móveis e caixas"],
+          ["Caminhão baú", "Apartamento pequeno ou médio", "Volume grande, com proteção contra chuva"]
+        ]
+      }
+    },
+    {
+      "h2": "O que muda o valor do frete",
+      "paragrafos": [
+        "O preço não depende só da distância. Alguns fatores pesam mais do que parecem, e saber disso ajuda a montar um pedido mais enxuto. Para entender melhor cada um, veja [quanto custa frete em Curitiba](/blog/quanto-custa-frete-em-curitiba/)."
+      ],
+      "tabela": {
+        "cabecalho": ["Fator", "Impacto no preço"],
+        "linhas": [
+          ["Volume e peso dos itens", "Define o tamanho do veículo e o número de ajudantes"],
+          ["Escada sem elevador", "Aumenta o tempo e o esforço da equipe"],
+          ["Distância e trânsito", "Trajetos longos ou em horário de pico tomam mais tempo"],
+          ["Desmontagem e montagem", "Soma o tempo de trabalho com ferramenta"],
+          ["Local de parada distante da porta", "Mais caminhada carregando peso"]
+        ]
+      }
+    },
+    {
+      "h2": "Frete em Curitiba e região metropolitana",
+      "paragrafos": [
+        "O frete atende todos os [bairros de Curitiba](/bairros/) e também cidades vizinhas, como São José dos Pinhais, Pinhais, Colombo, Araucária, Fazenda Rio Grande, Almirante Tamandaré e Campo Largo. Para essas cidades, vale combinar o horário fora do pico, porque as saídas pela BR-277, BR-116 e Rodovia da Uva costumam travar no fim da tarde.",
+        "Em Curitiba, a chuva aparece sem aviso em qualquer estação. Se o frete for em caminhonete aberta, peça lona ou prefira o baú. Em condomínios, confirme antes se a portaria exige cadastro do veículo e da equipe.",
+        "Se o volume passou de um quarto, compare com uma [mudança residencial](/servicos/mudanca-residencial/). O texto [frete ou mudança completa](/blog/frete-ou-mudanca-completa/) ajuda a decidir."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "Posso acompanhar o frete no veículo?",
+      "r": "Depende do veículo e do número de lugares na cabine. Pergunte no pedido. Se não houver lugar, combine para alguém receber no destino."
+    },
+    {
+      "p": "Vocês levam máquina de lavar e geladeira deitadas?",
+      "r": "O ideal é transportar geladeira em pé. A máquina de lavar precisa da trava do tambor ou de um calço, conforme o manual. Avise o modelo para a equipe se preparar."
+    },
+    {
+      "p": "O frete pode ter mais de um endereço de coleta?",
+      "r": "Pode. Informe todos os endereços no pedido, na ordem. Cada parada extra soma tempo, e isso entra no valor fechado."
+    }
+  ]
+}

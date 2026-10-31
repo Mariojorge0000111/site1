@@ -1,205 +1,40 @@
-// Perfil do bairro: muda os textos de cada serviço na página do bairro
-export type Perfil = 'vertical' | 'casas' | 'misto' | 'estudantil' | 'comercial' | 'industrial';
+// Cada bairro com página própria tem um arquivo JSON em ./bairros/<slug>.json,
+// com texto pesquisado e único (regra: 60%+ de conteúdo exclusivo por página).
 
 export interface Bairro {
   slug: string;
   nome: string;
-  prep: string;      // "no", "na", "em"
-  perfil: Perfil;
-  sobre: string;     // como é o bairro
-  dica: string;      // cuidado específico para mudança ali
+  prep: string;
+  titulo: string;
+  descricao: string;
+  h1: string;
+  sobre: string;
+  secoes: { h2: string; paragrafos: string[]; lista?: string[] }[];
+  servicos: Record<string, string>;
+  faq: { p: string; r: string }[];
   proximos: string[];
+  fontes?: string[];
 }
 
-export const BAIRROS: Bairro[] = [
-  { slug: 'centro', nome: 'Centro', prep: 'no', perfil: 'comercial',
-    sobre: 'O Centro é o coração comercial de Curitiba, com prédios antigos, muitos deles sem elevador, escritórios, lojas e ruas de trânsito intenso.',
-    dica: 'Boa parte das ruas do Centro tem pouca vaga para parar e restrições para veículos de carga, e o calçadão da Rua XV não recebe veículos. Combine antes o ponto exato de parada e confirme se o prédio tem elevador.',
-    proximos: ['sao-francisco', 'centro-civico', 'batel', 'reboucas', 'alto-da-xv'] },
-  { slug: 'sao-francisco', nome: 'São Francisco', prep: 'no', perfil: 'misto',
-    sobre: 'O São Francisco é o bairro do centro histórico e do Largo da Ordem, com casarões, prédios antigos e ruas de paralelepípedo.',
-    dica: 'Ruas estreitas e de paralelepípedo pedem veículo menor e mais cuidado com o carrinho de carga. Aos domingos a região do Largo da Ordem recebe a feira, então prefira outro dia.',
-    proximos: ['centro', 'merces', 'centro-civico'] },
-  { slug: 'centro-civico', nome: 'Centro Cívico', prep: 'no', perfil: 'comercial',
-    sobre: 'O Centro Cívico concentra a sede do governo do Paraná e vários órgãos públicos, além de prédios residenciais e de escritórios.',
-    dica: 'Prédios de escritórios costumam exigir cadastro da equipe e do veículo na portaria. Resolva isso com a administração antes da data da mudança.',
-    proximos: ['centro', 'sao-francisco', 'alto-da-gloria', 'juveve'] },
-  { slug: 'batel', nome: 'Batel', prep: 'no', perfil: 'vertical',
-    sobre: 'O Batel é um dos endereços mais valorizados de Curitiba, com prédios residenciais de alto padrão, lojas e escritórios.',
-    dica: 'Condomínios do Batel quase sempre exigem agendamento, proteção do elevador e equipe identificada. Peça as regras de mudança por escrito à administração.',
-    proximos: ['bigorrilho', 'agua-verde', 'centro', 'reboucas'] },
-  { slug: 'agua-verde', nome: 'Água Verde', prep: 'no', perfil: 'misto',
-    sobre: 'O Água Verde é um bairro residencial tradicional, com prédios e casas, comércio forte e a Arena da Baixada.',
-    dica: 'Em dia de jogo na Arena da Baixada o trânsito e o estacionamento no entorno ficam difíceis. Evite marcar a mudança nesses horários.',
-    proximos: ['batel', 'portao', 'reboucas'] },
-  { slug: 'bigorrilho', nome: 'Bigorrilho', prep: 'no', perfil: 'vertical',
-    sobre: 'O Bigorrilho, onde fica a região do Champagnat, é vizinho do Batel e tem muitos prédios residenciais.',
-    dica: 'Em prédios com muitos apartamentos, o elevador de serviço é disputado. Reserve com antecedência e confirme o horário permitido.',
-    proximos: ['batel', 'merces', 'mossungue'] },
-  { slug: 'merces', nome: 'Mercês', prep: 'nas', perfil: 'misto',
-    sobre: 'As Mercês ficam perto do Centro e misturam casas, sobrados e prédios residenciais.',
-    dica: 'Sobrados com escada estreita costumam exigir a desmontagem de camas e guarda-roupas. Avise no orçamento para a equipe já ir preparada.',
-    proximos: ['sao-francisco', 'bigorrilho', 'centro'] },
-  { slug: 'reboucas', nome: 'Rebouças', prep: 'no', perfil: 'misto',
-    sobre: 'O Rebouças é um antigo bairro industrial perto do Centro que hoje mistura prédios novos, galpões e comércio.',
-    dica: 'Muitos prédios novos têm horário específico e acesso pela garagem para mudança. Confirme na portaria onde o caminhão pode encostar.',
-    proximos: ['centro', 'agua-verde', 'jardim-botanico', 'prado-velho', 'batel'] },
-  { slug: 'prado-velho', nome: 'Prado Velho', prep: 'no', perfil: 'estudantil',
-    sobre: 'O Prado Velho é o bairro da PUCPR, com muitos estudantes morando em kitnets e apartamentos pequenos.',
-    dica: 'Mudança de kitnet costuma caber num carreto. No início e no fim de semestre a procura aumenta, então agende com antecedência.',
-    proximos: ['reboucas', 'jardim-botanico', 'jardim-das-americas'] },
-  { slug: 'jardim-botanico', nome: 'Jardim Botânico', prep: 'no', perfil: 'misto',
-    sobre: 'O Jardim Botânico abriga o cartão-postal mais famoso de Curitiba e tem prédios residenciais e casas.',
-    dica: 'Nos fins de semana o movimento perto do parque aumenta. Para mudanças maiores, dias de semana costumam ser mais tranquilos.',
-    proximos: ['prado-velho', 'cajuru', 'reboucas', 'jardim-das-americas', 'cristo-rei'] },
-  { slug: 'jardim-das-americas', nome: 'Jardim das Américas', prep: 'no', perfil: 'estudantil',
-    sobre: 'O Jardim das Américas é o bairro do Centro Politécnico da UFPR, com muitos estudantes, casas e prédios baixos.',
-    dica: 'Prédios baixos sem elevador são comuns por aqui. Informe o andar e a escada no orçamento para dimensionar a equipe.',
-    proximos: ['cajuru', 'uberaba', 'jardim-botanico', 'prado-velho'] },
-  { slug: 'cajuru', nome: 'Cajuru', prep: 'no', perfil: 'casas',
-    sobre: 'O Cajuru é um bairro populoso da região leste, com casas, sobrados e conjuntos residenciais.',
-    dica: 'Em ruas residenciais, o caminhão costuma parar em frente ao portão. Verifique se não há carros bloqueando a entrada no dia.',
-    proximos: ['jardim-das-americas', 'uberaba', 'jardim-botanico'] },
-  { slug: 'uberaba', nome: 'Uberaba', prep: 'no', perfil: 'casas',
-    sobre: 'O Uberaba é um bairro grande da região leste, com casas, condomínios de sobrados e prédios novos.',
-    dica: 'Condomínios de sobrados costumam ter regras de horário e acesso de veículos. Confirme com a portaria se o caminhão pode entrar.',
-    proximos: ['cajuru', 'jardim-das-americas', 'boqueirao', 'hauer'] },
-  { slug: 'alto-da-xv', nome: 'Alto da XV', prep: 'no', perfil: 'vertical',
-    sobre: 'O Alto da XV é um bairro tradicional colado ao Centro, com prédios antigos e casarões.',
-    dica: 'Prédios antigos muitas vezes não têm elevador de serviço. Informe o andar para a equipe dimensionar ajudantes e tempo.',
-    proximos: ['centro', 'cristo-rei', 'hugo-lange', 'jardim-botanico'] },
-  { slug: 'cristo-rei', nome: 'Cristo Rei', prep: 'no', perfil: 'misto',
-    sobre: 'O Cristo Rei é um bairro residencial tranquilo, com prédios e casas, perto do Jardim Botânico.',
-    dica: 'Ruas residenciais tranquilas facilitam a parada do caminhão; ainda assim, avise os vizinhos se for bloquear uma garagem por algumas horas.',
-    proximos: ['alto-da-xv', 'jardim-botanico', 'hugo-lange'] },
-  { slug: 'hugo-lange', nome: 'Hugo Lange', prep: 'no', perfil: 'casas',
-    sobre: 'O Hugo Lange é um bairro pequeno e residencial, com casas amplas e ruas arborizadas.',
-    dica: 'Ruas arborizadas podem limitar a altura do caminhão perto da calçada. Combine o melhor ponto de parada antes.',
-    proximos: ['alto-da-xv', 'juveve', 'cabral', 'cristo-rei'] },
-  { slug: 'juveve', nome: 'Juvevê', prep: 'no', perfil: 'vertical',
-    sobre: 'O Juvevê é um bairro residencial com muitos prédios, perto do Centro Cívico.',
-    dica: 'Confirme o horário de mudança dos dois prédios e a reserva do elevador de serviço com pelo menos uma semana de antecedência.',
-    proximos: ['cabral', 'alto-da-gloria', 'hugo-lange', 'centro-civico'] },
-  { slug: 'alto-da-gloria', nome: 'Alto da Glória', prep: 'no', perfil: 'vertical',
-    sobre: 'O Alto da Glória é o bairro do estádio Couto Pereira, com prédios residenciais perto do Centro.',
-    dica: 'Em dia de jogo no Couto Pereira o trânsito no bairro fica pesado. Evite agendar a mudança nesses horários.',
-    proximos: ['juveve', 'centro-civico', 'centro', 'cabral'] },
-  { slug: 'cabral', nome: 'Cabral', prep: 'no', perfil: 'misto',
-    sobre: 'O Cabral é um bairro residencial com prédios e casas, comércio de bairro e acesso fácil ao Centro.',
-    dica: 'Se o prédio não tem vaga de carga, combine com a portaria um ponto seguro para o caminhão parar durante a mudança.',
-    proximos: ['juveve', 'bacacheri', 'hugo-lange', 'boa-vista'] },
-  { slug: 'bacacheri', nome: 'Bacacheri', prep: 'no', perfil: 'casas',
-    sobre: 'O Bacacheri fica na região norte, com casas, sobrados, o Parque Bacacheri e um aeroporto de pequeno porte.',
-    dica: 'Casas com quintal costumam ter móveis de área externa e itens de garagem. Liste tudo no orçamento para não faltar espaço no caminhão.',
-    proximos: ['cabral', 'boa-vista', 'hugo-lange'] },
-  { slug: 'boa-vista', nome: 'Boa Vista', prep: 'no', perfil: 'casas',
-    sobre: 'O Boa Vista é um bairro grande da região norte, com casas, sobrados e prédios baixos.',
-    dica: 'Sobrados com escada em curva podem exigir desmontagem de camas e guarda-roupas. Avise no orçamento.',
-    proximos: ['bacacheri', 'santa-candida', 'cabral'] },
-  { slug: 'santa-candida', nome: 'Santa Cândida', prep: 'no', perfil: 'casas',
-    sobre: 'O Santa Cândida fica no extremo norte de Curitiba, perto do terminal de mesmo nome e da divisa com Colombo e Almirante Tamandaré.',
-    dica: 'Se a mudança for para Colombo ou Almirante Tamandaré, a distância é curta, mas informe o endereço completo para o orçamento considerar o trajeto.',
-    proximos: ['boa-vista', 'bacacheri'] },
-  { slug: 'santa-felicidade', nome: 'Santa Felicidade', prep: 'em', perfil: 'casas',
-    sobre: 'Santa Felicidade é o bairro de colonização italiana famoso pelos restaurantes, com muitas casas e terrenos amplos.',
-    dica: 'Casas grandes costumam ter mais volume do que parece. Faça uma lista por cômodo para o orçamento indicar o caminhão certo.',
-    proximos: ['mossungue', 'campo-comprido'] },
-  { slug: 'mossungue', nome: 'Mossunguê (Ecoville)', prep: 'no', perfil: 'vertical',
-    sobre: 'O Mossunguê é onde fica boa parte do Ecoville, com condomínios de prédios altos e o Parque Barigui por perto.',
-    dica: 'Torres altas têm regras rígidas de mudança: agendamento, docas, proteção de elevador e equipe cadastrada. Peça o regulamento ao condomínio.',
-    proximos: ['campo-comprido', 'bigorrilho', 'santa-felicidade'] },
-  { slug: 'campo-comprido', nome: 'Campo Comprido', prep: 'no', perfil: 'misto',
-    sobre: 'O Campo Comprido é um bairro em crescimento, com condomínios de casas, prédios novos e parte da região do Ecoville.',
-    dica: 'Condomínios fechados pedem a placa do veículo e o nome da equipe antes. Mande esses dados para a portaria com antecedência.',
-    proximos: ['mossungue', 'cic', 'santa-felicidade'] },
-  { slug: 'portao', nome: 'Portão', prep: 'no', perfil: 'misto',
-    sobre: 'O Portão é um bairro movimentado, com comércio forte, shopping e muitos prédios e casas.',
-    dica: 'As ruas comerciais do Portão têm trânsito intenso no horário de pico. Mudanças no começo da manhã costumam render mais.',
-    proximos: ['agua-verde', 'fazendinha', 'novo-mundo', 'capao-raso'] },
-  { slug: 'fazendinha', nome: 'Fazendinha', prep: 'no', perfil: 'casas',
-    sobre: 'O Fazendinha é um bairro residencial da região oeste, com casas, sobrados e conjuntos.',
-    dica: 'Em ruas com pouco espaço para manobra, um caminhão menor ou um utilitário pode ser mais eficiente. Mande fotos da rua se tiver dúvida.',
-    proximos: ['portao', 'cic', 'novo-mundo'] },
-  { slug: 'novo-mundo', nome: 'Novo Mundo', prep: 'no', perfil: 'casas',
-    sobre: 'O Novo Mundo é um bairro residencial com casas e comércio, entre o Portão e o Capão Raso.',
-    dica: 'Se a casa tem portão estreito, meça a passagem antes: sofás e geladeiras grandes podem precisar de outro caminho.',
-    proximos: ['portao', 'capao-raso', 'fazendinha', 'cic'] },
-  { slug: 'capao-raso', nome: 'Capão Raso', prep: 'no', perfil: 'misto',
-    sobre: 'O Capão Raso fica na região sul, com casas, prédios e o terminal de ônibus do bairro.',
-    dica: 'Perto do terminal e das vias de ônibus o estacionamento é restrito. Combine a parada em rua lateral, se for o caso.',
-    proximos: ['novo-mundo', 'pinheirinho', 'portao', 'xaxim'] },
-  { slug: 'pinheirinho', nome: 'Pinheirinho', prep: 'no', perfil: 'casas',
-    sobre: 'O Pinheirinho fica na região sul, com terminal de ônibus, comércio e muitas casas.',
-    dica: 'Mudanças entre bairros da região sul costumam ser rápidas. Organize as caixas perto da saída para aproveitar o tempo da equipe.',
-    proximos: ['capao-raso', 'sitio-cercado', 'xaxim', 'tatuquara', 'cic'] },
-  { slug: 'xaxim', nome: 'Xaxim', prep: 'no', perfil: 'casas',
-    sobre: 'O Xaxim é um bairro residencial da região sul, com casas, sobrados e comércio de bairro.',
-    dica: 'Sobrados geminados costumam ter escadas estreitas. Avise no orçamento quais móveis ficam no andar de cima.',
-    proximos: ['boqueirao', 'pinheirinho', 'capao-raso', 'hauer'] },
-  { slug: 'hauer', nome: 'Hauer', prep: 'no', perfil: 'misto',
-    sobre: 'O Hauer é um bairro residencial com casas e prédios, perto do Boqueirão e do Xaxim.',
-    dica: 'Se o prédio não tem elevador, informe o andar no orçamento para a equipe ir com o número certo de ajudantes.',
-    proximos: ['boqueirao', 'xaxim', 'uberaba'] },
-  { slug: 'boqueirao', nome: 'Boqueirão', prep: 'no', perfil: 'casas',
-    sobre: 'O Boqueirão é um dos bairros mais populosos de Curitiba, com muitas casas e sobrados na região sul.',
-    dica: 'Com muita procura no bairro, os horários de fim de mês lotam rápido. Agende com antecedência.',
-    proximos: ['hauer', 'xaxim', 'uberaba', 'sitio-cercado'] },
-  { slug: 'sitio-cercado', nome: 'Sítio Cercado', prep: 'no', perfil: 'casas',
-    sobre: 'O Sítio Cercado é um dos bairros mais populosos da cidade, na região sul, com casas, sobrados e conjuntos residenciais.',
-    dica: 'Em conjuntos residenciais, informe bloco e número e um ponto de referência; isso evita atraso na chegada da equipe.',
-    proximos: ['pinheirinho', 'xaxim', 'boqueirao'] },
-  { slug: 'tatuquara', nome: 'Tatuquara', prep: 'no', perfil: 'casas',
-    sobre: 'O Tatuquara fica no extremo sul de Curitiba e está em crescimento, com conjuntos residenciais e casas.',
-    dica: 'Em ruas novas, o GPS às vezes erra. Mande a localização pelo WhatsApp para a equipe chegar direto.',
-    proximos: ['pinheirinho', 'cic'] },
-  { slug: 'cic', nome: 'CIC (Cidade Industrial)', prep: 'na', perfil: 'industrial',
-    sobre: 'A Cidade Industrial de Curitiba, a CIC, é o maior bairro da cidade em área, com indústrias, empresas e grandes regiões residenciais.',
-    dica: 'Dentro da própria CIC as distâncias são longas. Informe o endereço completo e um ponto de referência para o orçamento sair certo.',
-    proximos: ['campo-comprido', 'fazendinha', 'pinheirinho', 'tatuquara', 'novo-mundo'] },
+// Ordem de exibição (bairros mais procurados primeiro)
+const ORDEM = [
+  'centro', 'batel', 'agua-verde', 'bigorrilho', 'portao', 'cabral', 'mossungue', 'juveve', 'reboucas',
+  'cic', 'boqueirao', 'sitio-cercado', 'cajuru', 'xaxim', 'pinheirinho', 'uberaba', 'santa-felicidade',
+  'jardim-das-americas',
 ];
 
-export const bairro = (slug: string) => BAIRROS.find((b) => b.slug === slug)!;
+const arquivos = import.meta.glob('./bairros/*.json', { eager: true }) as Record<string, { default: Bairro }>;
+export const BAIRROS: Bairro[] = Object.values(arquivos)
+  .map((m) => m.default)
+  .sort((a, b) => ORDEM.indexOf(a.slug) - ORDEM.indexOf(b.slug));
 
-// Texto de cada serviço adaptado ao perfil do bairro
-export const TEXTO_PERFIL: Record<string, Record<Perfil, string>> = {
-  frete: {
-    vertical: 'Em prédios, o frete precisa casar com o horário do elevador de serviço. A equipe chega no horário reservado e protege o elevador antes de carregar.',
-    casas: 'Em casas e sobrados, o veículo para em frente ao portão e o carregamento é rápido. Itens do quintal e da garagem também podem ir no mesmo frete.',
-    misto: 'Seja prédio ou casa, o veículo é escolhido pelo volume que você vai levar, para não pagar por espaço sobrando.',
-    estudantil: 'Para quem mora em kitnet ou divide apartamento, o frete pequeno resolve a mudança inteira numa viagem só.',
-    comercial: 'Em ruas movimentadas, o carregamento é feito de forma rápida e organizada para liberar a via o quanto antes.',
-    industrial: 'O frete atende tanto casas e apartamentos quanto pequenas empresas, com transporte de móveis, caixas e equipamentos.',
-  },
-  carreto: {
-    vertical: 'Ideal para levar um sofá, uma cama ou uma geladeira entre apartamentos, inclusive no mesmo bairro.',
-    casas: 'Perfeito para buscar um móvel comprado na OLX, levar uma geladeira ou descartar móveis velhos.',
-    misto: 'Serve para compras de loja, móveis da OLX e Marketplace e eletrodomésticos avulsos.',
-    estudantil: 'É a opção mais em conta para estudantes: geladeira, colchão, mesa e algumas caixas cabem num utilitário.',
-    comercial: 'Bom para retirar compras de lojas da região e entregar em outro bairro no mesmo dia.',
-    industrial: 'Atende retiradas rápidas de materiais, peças e compras em lojas e empresas da região.',
-  },
-  'mudanca-residencial': {
-    vertical: 'Mudança de apartamento com agendamento no condomínio, proteção de elevador e equipe identificada, como os prédios exigem.',
-    casas: 'Mudança de casa ou sobrado com caminhão baú, desmontagem dos móveis e cuidado com escadas e portões.',
-    misto: 'Casa ou apartamento, a mudança é planejada com antecedência: volume, regras do prédio e horário certo.',
-    estudantil: 'Para apartamentos pequenos, a mudança residencial pode ser feita em meio período, com equipe enxuta.',
-    comercial: 'Prédios antigos e sem elevador exigem mais ajudantes e planejamento. Tudo é considerado no orçamento.',
-    industrial: 'Mudanças residenciais em todas as regiões do bairro, das áreas de casas aos condomínios novos.',
-  },
-  'mudanca-comercial': {
-    vertical: 'Escritórios, consultórios e lojas da região mudam com planejamento para não parar o atendimento.',
-    casas: 'Comércios de bairro, salões e pequenos escritórios mudam com rapidez, de preferência fora do horário de funcionamento.',
-    misto: 'Lojas, escritórios e clínicas do bairro mudam com etiquetagem por setor e montagem no novo endereço.',
-    estudantil: 'Pequenos escritórios, repúblicas e comércios perto da universidade também são atendidos.',
-    comercial: 'Escritórios e lojas em prédios comerciais, com cadastro prévio da equipe e mudança à noite ou no fim de semana.',
-    industrial: 'Empresas e pequenos galpões mudam com planejamento, transporte de equipamentos e estoque.',
-  },
-  'montagem-de-moveis': {
-    vertical: 'Guarda-roupas e camas grandes raramente cabem no elevador inteiros. A desmontagem resolve e a montagem é feita no novo apartamento.',
-    casas: 'Em sobrados, a escada costuma ser o ponto crítico. Camas e guarda-roupas são desmontados para descer sem riscar paredes.',
-    misto: 'Desmontagem e montagem de guarda-roupas, camas, mesas e racks, com as ferragens identificadas por móvel.',
-    estudantil: 'Camas, escrivaninhas e estantes desmontadas e montadas de novo, sem perder parafuso.',
-    comercial: 'Em prédios antigos com escadas e portas estreitas, desmontar é o que garante que o móvel chegue inteiro.',
-    industrial: 'Desmontagem e montagem de móveis residenciais e de escritório, de armários a estações de trabalho.',
-  },
-};
+export const bairro = (slug: string) => BAIRROS.find((b) => b.slug === slug);
+
+// Bairros atendidos que não têm página própria (aparecem listados em /bairros/)
+export const OUTROS_BAIRROS = [
+  'São Francisco', 'Centro Cívico', 'Mercês', 'Prado Velho', 'Jardim Botânico', 'Alto da XV', 'Cristo Rei',
+  'Hugo Lange', 'Alto da Glória', 'Bacacheri', 'Boa Vista', 'Santa Cândida', 'Campo Comprido', 'Fazendinha',
+  'Novo Mundo', 'Capão Raso', 'Hauer', 'Tatuquara', 'Ahú', 'Seminário', 'Vila Izabel', 'Santa Quitéria',
+  'Campina do Siqueira', 'Pilarzinho', 'São Lourenço', 'Tarumã', 'Capão da Imbuia', 'Guabirotuba',
+  'Alto Boqueirão', 'Umbará', 'Campo de Santana', 'Barreirinha', 'Abranches', 'Santo Inácio', 'Orleans',
+];

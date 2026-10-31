@@ -1,0 +1,91 @@
+{
+  "secoes": [
+    {
+      "h2": "Como funciona o içamento de móveis em Curitiba",
+      "paragrafos": [
+        "O içamento é a última opção, usada quando desmontar não resolve. Cada caso é avaliado antes, porque nem toda janela ou sacada permite.",
+        "Faça as medidas com trena e mande junto com as fotos. Isso já evita uma visita desnecessária."
+      ],
+      "lista": [
+        "Você manda fotos da janela ou sacada, por dentro e por fora, e as medidas do item.",
+        "A equipe avalia altura, abertura, ponto de apoio e obstáculos na fachada.",
+        "Você confirma com o condomínio a autorização e o horário.",
+        "No dia, a área embaixo é isolada e o item é protegido.",
+        "O item sobe ou desce com cordas e é recebido pela janela ou sacada."
+      ]
+    },
+    {
+      "h2": "Antes de pedir içamento, tente isto",
+      "paragrafos": [
+        "Muitas vezes o item passa com um ajuste simples. Vale testar antes:"
+      ],
+      "lista": [
+        "Tirar a porta da dobradiça para ganhar alguns centímetros.",
+        "Retirar pés, braços ou encosto do sofá, se o modelo permitir.",
+        "Desmontar mais peças do armário com a [montagem de móveis](/servicos/montagem-de-moveis/).",
+        "Medir a diagonal do corredor e da escada, não só a largura."
+      ]
+    },
+    {
+      "h2": "O que torna o içamento viável ou não",
+      "paragrafos": [
+        "A avaliação considera vários pontos ao mesmo tempo. Um deles sozinho já pode inviabilizar o serviço."
+      ],
+      "tabela": {
+        "cabecalho": [
+          "Ponto avaliado",
+          "O que observar"
+        ],
+        "linhas": [
+          [
+            "Altura do andar",
+            "Quanto mais alto, mais complexo e demorado"
+          ],
+          [
+            "Abertura da janela ou sacada",
+            "Precisa ser maior que o item, com folga"
+          ],
+          [
+            "Peso do item",
+            "Itens muito pesados podem não ser seguros para içar com cordas"
+          ],
+          [
+            "Fiação e árvores na frente",
+            "Podem bloquear o trajeto do item"
+          ],
+          [
+            "Espaço na calçada",
+            "É preciso área livre para receber o item embaixo"
+          ],
+          [
+            "Regras do condomínio",
+            "Alguns prédios proíbem ou limitam o horário"
+          ]
+        ]
+      }
+    },
+    {
+      "h2": "Içamento em Curitiba: situações comuns",
+      "paragrafos": [
+        "No Centro, no Rebouças e no Alto da Glória ainda há muitos prédios baixos sem elevador e com escada estreita. É ali que mais aparece o sofá que não passa no patamar.",
+        "Em sobrados de bairros como Boqueirão, Xaxim e Cajuru, a escada em caracol ou em L costuma barrar guarda-roupas e camas box.",
+        "Em dia de chuva ou vento forte, o içamento é reagendado. O tempo em Curitiba muda rápido, então é bom ter uma data reserva.",
+        "O içamento costuma fazer parte de uma [mudança residencial](/servicos/mudanca-residencial/) ou de um [frete](/servicos/frete/). Na hora de pedir o orçamento, peça tudo junto."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "Dá para içar geladeira?",
+      "r": "Depende do peso e do modelo. Geladeiras duplex são pesadas e precisam de avaliação cuidadosa. Mande o modelo e as fotos do local."
+    },
+    {
+      "p": "Quem fala com o condomínio?",
+      "r": "O ideal é você, como morador, pedir a autorização. A equipe pode passar as informações que a administração pedir, como horário e área ocupada."
+    },
+    {
+      "p": "O içamento serve para casas térreas?",
+      "r": "Em casas térreas raramente é preciso. O mais comum é em sobrados, quando a escada interna não deixa o item passar para o andar de cima."
+    }
+  ]
+}

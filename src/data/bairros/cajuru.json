@@ -1,0 +1,66 @@
+{
+  "slug": "cajuru",
+  "nome": "Cajuru",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Cajuru, Curitiba | Fretes e Carretos",
+  "descricao": "Frete e mudança no Cajuru, Curitiba: vilas Oficinas e Centenário, novas canaletas do BRT e acesso pela Affonso Camargo. Peça seu orçamento pelo WhatsApp.",
+  "h1": "Frete e mudança no Cajuru, Curitiba",
+  "sobre": "Com cerca de 96 mil moradores, o Cajuru está entre os três bairros mais populosos de Curitiba, segundo dados do IBGE. O nome vem do tupi e é traduzido como boca da mata. Fica na zona leste, faz divisa com Pinhais e se divide em vilas, como Oficinas, Centenário e Jardim Mercúrio. Por isso, toda mudança no Cajuru começa com uma pergunta simples: em qual vila?",
+  "secoes": [
+    {
+      "h2": "Vilas, vizinhos e tipos de imóvel no Cajuru",
+      "paragrafos": [
+        "O Cajuru ocupa cerca de 11,5 km² e faz divisa com Jardim Botânico, Cristo Rei, Capão da Imbuia, Jardim das Américas, Uberaba e com o município de Pinhais. Dá nome à Regional Cajuru, que também reúne Guabirotuba e Tarumã.",
+        "A Vila Oficinas recebeu esse nome por causa das antigas oficinas de trens da Rede Ferroviária e abriga um conjunto da Cohab. A Vila Centenário tem terminal próprio. No bairro há casas com quintal, sobrados, casas em condomínio, apartamentos de vários tamanhos e studios, então o carreto no Cajuru pode ser de um studio ou de uma casa inteira."
+      ]
+    },
+    {
+      "h2": "BRT Leste/Oeste: ruas novas e canaletas de concreto",
+      "paragrafos": [
+        "Em março de 2026, a prefeitura entregou 5,4 km de obras do BRT Leste/Oeste no Cajuru. A Avenida Prefeito Maurício Fruet e outras nove ruas foram requalificadas, as canaletas ganharam concreto em trechos das ruas Desembargador Mercer Junior, Engenheiro Costa Barros, Filipinas e Ceilão, e nove estações-tubo foram reformadas. Para quem faz frete no Cajuru, três pontos pesam:"
+      ],
+      "lista": [
+        "Rua Nagib da Silva: duas quadras entre Ceilão e Filipinas viraram calçadão, o que exige carrinho até a porta",
+        "Binário das ruas Professora Olga Balster e Professor Nivaldo Braga, que liga o Tarumã ao Cajuru, com sentido único em cada via",
+        "Canaletas exclusivas de ônibus, onde não é possível parar para carga"
+      ]
+    },
+    {
+      "h2": "Hospital Cajuru, feiras e a linha do trem",
+      "paragrafos": [
+        "O Hospital Universitário Cajuru, na Avenida São José, é um dos principais pronto-socorros da cidade e recebe ambulâncias do SAMU e do SIATE. Nas ruas em volta, o caminhão não pode ficar em fila dupla, e planejamos a parada com isso em mente.",
+        "Às sextas, a Avenida Maurício Fruet recebe a feira de artesanato da Rua da Cidadania, e aos domingos há feira livre na Rua Teófilo Otoni. Os trilhos da ferrovia que vai ao litoral também passam pela região, e a rota considera os pontos de travessia. Na Vila Oficinas, o Armazém da Família funciona junto ao terminal, um ponto de muito movimento de pedestres."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "Frete no Cajuru pode sair do comércio do próprio bairro ou chegar pela Avenida Presidente Affonso Camargo, um dos principais acessos. Com as canaletas novas do BRT, combinamos antes onde o caminhão pode encostar sem invadir a faixa dos ônibus. O item segue embalado em manta e é levado até dentro do imóvel.",
+    "carreto": "Carreto no Cajuru é útil para quem mora em studio ou apartamento pequeno e precisa levar poucos móveis, ou para trajetos curtos entre vilas, como da Vila Oficinas para a Vila Centenário. Também vale para levar itens ao Jardim das Américas ou ao Uberaba, bairros vizinhos. Envie fotos e endereços pelo WhatsApp.",
+    "mudanca-residencial": "A mudança residencial no Cajuru varia muito: casa com quintal, sobrado em condomínio ou apartamento com elevador. Por isso pedimos fotos dos cômodos e informações de acesso. Em condomínio, cadastramos a equipe na portaria; em rua aberta, verificamos se o endereço fica em trecho de canaleta ou de calçadão antes de marcar o dia.",
+    "mudanca-comercial": "O Cajuru é principalmente residencial, mas tem forte estrutura comercial espalhada pelas vilas. Na mudança comercial, retiramos móveis e equipamentos fora do expediente, embalamos por setor e descarregamos na ordem que facilita a reabertura. Se a loja fica no calçadão da Nagib da Silva, planejamos o transporte a pé até o veículo.",
+    "montagem-de-moveis": "Montamos e desmontamos guarda-roupas, camas, berços, estantes e armários de cozinha em casas e apartamentos do Cajuru. Na mudança, desmontamos o que não passa pela porta ou pela escada e remontamos no destino. Também fazemos montagem avulsa de móveis novos no Cajuru ou em bairros da regional, como Capão da Imbuia e Tarumã."
+  },
+  "faq": [
+    {
+      "p": "As obras do BRT ainda atrapalham mudança no Cajuru?",
+      "r": "O trecho do bairro foi entregue em março de 2026, mas outras etapas do BRT Leste/Oeste seguem em andamento na cidade. Antes da data, conferimos a situação da rua do seu endereço e definimos onde parar, longe das canaletas exclusivas."
+    },
+    {
+      "p": "Moro perto do Hospital Cajuru. A mudança é possível?",
+      "r": "É, com planejamento. Escolhemos um ponto de parada que não interfira na passagem de ambulâncias na Avenida São José e, se for preciso, levamos os volumes com carrinho por um trecho maior. Informe a quadra exata no orçamento."
+    },
+    {
+      "p": "Vocês atendem todas as vilas do Cajuru?",
+      "r": "Sim, atendemos Vila Oficinas, Vila Centenário, Jardim Mercúrio e as demais áreas do bairro. Basta informar rua, número e um ponto de referência, como um dos terminais ou o Parque Linear do Cajuru, para facilitar a chegada da equipe."
+    }
+  ],
+  "proximos": ["jardim-das-americas", "uberaba"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/blog/melhores-bairros/cajuru/",
+    "https://www.quintoandar.com.br/regioes-atendidas/cajuru-curitiba-pr-brasil-9d3ztmrwk6",
+    "https://www.quintoandar.com.br/guias/?p=496184",
+    "https://www.bandab.com.br/curitiba/cajuru-capao-da-imbuia-e-taruma-entre-os-motivos-de-orgulho-encontramos-ate-uma-fazenda/amp/",
+    "https://www.curitiba.pr.gov.br/3anosdetrabalho/regional/cajuru",
+    "https://www.curitiba.pr.gov.br/noticias/eduardo-pimentel-entrega-54-km-de-obras-do-brt-lesteoeste-no-cajuru/82424"
+  ]
+}

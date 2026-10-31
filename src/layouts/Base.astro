@@ -9,11 +9,14 @@ interface Props {
   schema?: object | object[];
   ogType?: string;
   ogImage?: string;
+  preloadImg?: string;
 }
 
-const { title, description, schema, ogType = 'website', ogImage = 'hero' } = Astro.props;
+const { title, description, schema, ogType = 'website', ogImage = 'hero', preloadImg } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const fullTitle = title.includes(SITE.nome) ? title : `${title} | ${SITE.nome}`;
+// Marca no fim do título só quando cabe em 60 caracteres
+const comMarca = `${title} | ${SITE.nome}`;
+const fullTitle = title.includes(SITE.nome) || comMarca.length > 60 ? title : comMarca;
 const imagemOg = new URL(`/images/${ogImage}.webp`, Astro.site).href;
 
 const negocio = {
@@ -60,9 +63,10 @@ const wa = linkWhatsapp();
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="/fonts/instrument-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+    {preloadImg && <link rel="preload" as="image" href={`/images/${preloadImg}.webp`} imagesrcset={`/images/${preloadImg}-800.webp 800w, /images/${preloadImg}.webp 1920w`} imagesizes="100vw" fetchpriority="high" />}
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
     {schemas.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
   </head>
   <body>

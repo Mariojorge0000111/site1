@@ -1,0 +1,64 @@
+{
+  "secoes": [
+    {
+      "h2": "Material certo para cada item frágil",
+      "paragrafos": [
+        "Usar o material errado é a principal causa de quebra. A tabela mostra o que funciona para cada tipo de objeto."
+      ],
+      "tabela": {
+        "cabecalho": ["Item", "Material", "Como embalar"],
+        "linhas": [
+          ["Pratos", "Papel e caixa pequena reforçada", "Um a um, em pé, com papel entre eles"],
+          ["Copos e taças", "Papel e plástico-bolha", "Papel dentro do bojo, plástico por fora"],
+          ["Travessas e panelas de vidro", "Plástico-bolha", "Deitadas no fundo da caixa, com papel nas laterais"],
+          ["TVs e monitores", "Caixa original ou plástico-bolha e papelão", "Sempre em pé, tela protegida"],
+          ["Quadros e espelhos", "Papelão nas quinas e plástico-bolha", "Em pé, com um X de fita no vidro"],
+          ["Lustres e luminárias", "Papel e caixa sob medida", "Cúpula separada da base"],
+          ["Livros", "Caixa pequena", "Deitados, sem passar do peso que dá para carregar"]
+        ]
+      }
+    },
+    {
+      "h2": "Como funciona o serviço de embalagem",
+      "paragrafos": [
+        "A embalagem pode ser da casa inteira ou só de uma parte. O passo a passo é o mesmo:"
+      ],
+      "lista": [
+        "Você indica o que a equipe vai embalar e o que você mesmo embala.",
+        "O volume é estimado por fotos dos armários e estantes.",
+        "A equipe chega com caixas, fita, papel e plástico-bolha.",
+        "Cada caixa é fechada, marcada como frágil quando for o caso e etiquetada com o cômodo.",
+        "As caixas ficam prontas para o carregamento."
+      ]
+    },
+    {
+      "h2": "Embalagem e o clima de Curitiba",
+      "paragrafos": [
+        "A umidade de Curitiba é alta em boa parte do ano. Caixas de papelão que ficam dias empilhadas no chão absorvem umidade e perdem resistência. Por isso, embale perto da data e deixe as caixas sobre um estrado ou tapete.",
+        "Em dia de chuva, sofás, colchões e móveis de tecido precisam de plástico além da manta. A manta protege contra batidas, o plástico protege contra a água. Esse trecho entre a porta e o caminhão é onde a maior parte dos itens molha.",
+        "Roupas podem ir em sacos plásticos grandes ou em malas. Evite caixas abertas para roupas em mudanças com chuva."
+      ]
+    },
+    {
+      "h2": "Se você for embalar sozinho",
+      "paragrafos": [
+        "Dá para economizar embalando o que é simples e deixando só os frágeis para a equipe. O passo a passo de [como embalar louças para mudança](/blog/como-embalar-loucas-para-mudanca/) ajuda bastante. Use também o [checklist de mudança](/blog/checklist-de-mudanca/) para não esquecer nada.",
+        "A embalagem pode ser contratada junto com a [mudança residencial](/servicos/mudanca-residencial/) ou com a [mudança comercial](/servicos/mudanca-comercial/), em Curitiba e na região metropolitana."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "Quantas caixas preciso para minha mudança?",
+      "r": "Depende muito de quantos objetos você tem, não do tamanho do imóvel. Com fotos dos armários, estantes e da cozinha, a estimativa fica mais precisa."
+    },
+    {
+      "p": "Posso usar caixas de supermercado?",
+      "r": "Para roupas e itens leves, sim. Para louças e itens pesados, prefira caixas novas e reforçadas, que não cedem no fundo."
+    },
+    {
+      "p": "A equipe desembala no novo endereço?",
+      "r": "Pode ser combinado. Muita gente prefere desembalar sozinha, mas a desembalagem dos frágeis pode entrar no orçamento."
+    }
+  ]
+}

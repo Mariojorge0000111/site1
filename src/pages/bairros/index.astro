@@ -3,13 +3,13 @@ import Base from '../../layouts/Base.astro';
 import Cta from '../../components/Cta.astro';
 import Img from '../../components/Img.astro';
 import { REGIAO } from '../../config';
-import { BAIRROS } from '../../data/bairros';
+import { BAIRROS, OUTROS_BAIRROS } from '../../data/bairros';
 
 const ordenados = [...BAIRROS].sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 ---
 <Base
   title="Bairros Atendidos: Frete e Mudança em Curitiba"
-  description="Frete, carreto e mudança em todos os bairros de Curitiba: Batel, Água Verde, Centro, Portão, Bigorrilho, Boqueirão, CIC, Ecoville e mais. Veja o seu bairro."
+  description="Frete, carreto e mudança em todos os bairros de Curitiba: Batel, Água Verde, Centro, Portão, Boqueirão, CIC, Ecoville e mais. Veja o seu bairro."
 >
   <section class="hero-pagina">
     <div class="wrap">
@@ -23,7 +23,10 @@ const ordenados = [...BAIRROS].sort((a, b) => a.nome.localeCompare(b.nome, 'pt-B
     <ul class="bairros-lista">
       {ordenados.map((b) => <li><a href={`/bairros/${b.slug}/`}>{b.nome}</a></li>)}
     </ul>
-    <p style="margin-top:28px;color:var(--suave)">Seu bairro não está na lista? Atendemos a cidade inteira. É só chamar no WhatsApp.</p>
+    <h2 style="margin:56px 0 12px;font-size:clamp(1.6rem,3vw,2.2rem)">Também atendemos</h2>
+    <p style="color:var(--suave);margin-bottom:20px">Fretes, carretos e mudanças em todos os outros bairros de Curitiba, entre eles:</p>
+    <p style="max-width:860px">{[...OUTROS_BAIRROS].sort((a, b) => a.localeCompare(b, 'pt-BR')).join(', ')}.</p>
+    <p style="margin-top:20px;color:var(--suave)">Seu bairro não aparece? Atendemos a cidade inteira. É só chamar no WhatsApp.</p>
   </section>
 
   <section class="secao secao-preta">

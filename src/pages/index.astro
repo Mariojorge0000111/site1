@@ -28,11 +28,12 @@ const [grande1, grande2, ...demais] = [
   ...SERVICOS.filter((s) => !['frete', 'mudanca-residencial', 'embalagem', 'icamento'].includes(s.slug)),
 ];
 const destaqueBairros = ['batel', 'agua-verde', 'centro', 'bigorrilho', 'portao', 'cabral', 'mossungue', 'boqueirao', 'cic', 'sitio-cercado', 'santa-felicidade', 'cajuru', 'xaxim', 'juveve', 'reboucas', 'pinheirinho'];
-const bairrosHome = destaqueBairros.map((s) => BAIRROS.find((b) => b.slug === s)!);
+const bairrosHome = destaqueBairros.map((s) => BAIRROS.find((b) => b.slug === s)).filter((b): b is NonNullable<typeof b> => Boolean(b));
 ---
 <Base
   title="Frete e Mudança em Curitiba | Fretes e Mudanças Curitiba"
-  description="Frete, carreto e mudança em Curitiba e região metropolitana. Mudança residencial e comercial, desmontagem e montagem de móveis. Preço combinado antes. Orçamento pelo WhatsApp."
+  description="Frete, carreto e mudança em Curitiba e região: residencial, comercial e montagem de móveis. Preço combinado antes. Peça seu orçamento pelo WhatsApp."
+  preloadImg="hero"
   schema={schemaFaq}
 >
   <section class="hero centro">
@@ -44,7 +45,7 @@ const bairrosHome = destaqueBairros.map((s) => BAIRROS.find((b) => b.slug === s)
         <a class="link" href="/servicos/">Ver serviços</a>
       </div>
       <div class="hero-foto">
-        <Img nome="hero" alt="Carregador levando caixas com carrinho até a van de mudança" prioridade />
+        <Img nome="hero" alt="Carregador levando caixas com carrinho até a van de mudança" prioridade sizes="(max-width: 1220px) 100vw, 1180px" />
       </div>
     </div>
   </section>
