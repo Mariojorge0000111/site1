@@ -1,0 +1,64 @@
+{
+  "slug": "batel",
+  "nome": "Batel",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Batel, Curitiba | Orçamento",
+  "descricao": "Mudança no Batel entre prédios de alto padrão, Av. do Batel e Vicente Machado: rota e horário combinados com o condomínio. Peça orçamento.",
+  "h1": "Frete e mudança no Batel, Curitiba",
+  "sobre": "O Batel ocupa só 1,76 km², mas concentra o metro quadrado mais caro de Curitiba e edifícios residenciais de alto padrão. Pouco mais de 12 mil pessoas moram entre a Sete de Setembro, a Carlos de Carvalho, a Desembargador Mota e a Gabriel de Lara. Uma mudança no Batel exige agenda alinhada com o condomínio, proteção caprichada nos móveis e atenção ao trânsito da vida noturna.",
+  "secoes": [
+    {
+      "h2": "Como é fazer mudança no Batel",
+      "paragrafos": [
+        "Os prédios do bairro costumam ter portaria, regras de uso do elevador de serviço e horários fixos para mudança. Antes de marcar a data, pedimos que você confirme com a administração o dia permitido, se é preciso reservar o elevador e onde o caminhão pode parar. Com isso em mãos, montamos a equipe e o tempo de carga.",
+        "Imóveis de alto padrão trazem móveis planejados, painéis, vidros e eletrodomésticos grandes. Envolvemos cada peça em manta, protegemos cantos e quinas, e cobrimos o piso do hall quando o condomínio pede. Itens que precisam ser desmontados entram na lista do orçamento, para não haver surpresa no dia."
+      ]
+    },
+    {
+      "h2": "Trânsito e acesso: Av. do Batel, Vicente Machado e Sete de Setembro",
+      "paragrafos": [
+        "A Avenida do Batel é a mais tradicional do bairro, com bares, restaurantes e o Shopping Pátio Batel. A Vicente Machado também vive cheia por causa da gastronomia. À noite e nos fins de semana, essas duas vias ficam movimentadas, por isso preferimos carregar pela manhã.",
+        "A Sete de Setembro, que marca um dos limites do bairro, concentra lojas, hotéis, bancos e corredor de ônibus. Já a Comendador Araújo, onde fica o Shopping Crystal, e a Teixeira Coelho, que liga o Batel ao Bigorrilho, servem de alternativa para chegar ao endereço sem enfrentar o trecho mais carregado."
+      ],
+      "lista": [
+        "Manhã de dia útil: melhor janela para carga e descarga",
+        "Sexta à noite e sábado: evitar Av. do Batel e Vicente Machado",
+        "Saída para outros bairros: Sete de Setembro e Visconde de Guarapuava"
+      ]
+    },
+    {
+      "h2": "Shoppings, escolas e casas históricas no caminho",
+      "paragrafos": [
+        "O bairro reúne quatro shoppings: Pátio Batel, Novo Batel, Crystal e Shopping Curitiba, este na Brigadeiro Franco. Quem compra móveis ou eletrodomésticos nessas lojas pode pedir frete no Batel direto para casa. Colégios tradicionais, como o Sion, fundado em 1906, e o Positivo Batel, aumentam o fluxo nos horários de entrada e saída de alunos.",
+        "A Casa Gomm, de madeira e tombada pelo estado em 1989, lembra que o Batel ainda guarda imóveis antigos entre as torres. Nesses casos, avaliamos portas, escadas internas e piso antes de mover qualquer peça."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Batel atende muito quem compra nos shoppings do bairro, como Pátio Batel, Novo Batel e Crystal, e quer o item em casa no mesmo dia ou no seguinte. Retiramos na loja, levamos até a portaria e subimos pelo elevador de serviço, com manta e cinta, respeitando o horário que o condomínio libera para entregas.",
+    "carreto": "Carreto no Batel, Curitiba, serve para quem vai trocar um sofá, levar uma cama para o apartamento de um filho ou mudar de um studio para outro no mesmo bairro. Usamos veículo de porte menor, que estaciona com mais facilidade nas ruas internas, longe do movimento da Av. do Batel e da Vicente Machado.",
+    "mudanca-residencial": "Na mudança residencial no Batel, a combinação com o síndico vem primeiro: dia permitido, reserva do elevador e local de parada. Depois embalamos os móveis com manta, protegemos o hall e organizamos a carga por cômodo. Assim a equipe sobe direto para o ambiente certo no novo endereço, sem acumular volumes no corredor.",
+    "mudanca-comercial": "Clínicas, escritórios e lojas ocupam bastante espaço no Batel, chamado de segundo centro da cidade pela força do comércio. Para mudança comercial, retiramos mobiliário, arquivos e equipamentos fora do horário de atendimento quando o prédio permite, e entregamos tudo montado e no lugar para a equipe voltar a trabalhar no dia seguinte.",
+    "montagem-de-moveis": "Apartamentos de alto padrão no Batel costumam ter móveis grandes, como camas king, armários altos e mesas com tampo de vidro, que só passam pelo elevador desmontados. Fazemos a desmontagem, embalamos ferragens identificadas por peça e remontamos no destino. Também montamos móveis novos comprados em caixa nas lojas do bairro."
+  },
+  "faq": [
+    {
+      "p": "Os condomínios do Batel têm horário específico para mudança?",
+      "r": "A maioria dos edifícios define dias e horários para mudança e reserva de elevador. Pedimos que você confirme essas regras com a administração antes de fecharmos a data. Assim a equipe chega no horário liberado e o caminhão para no local autorizado."
+    },
+    {
+      "p": "Qual o melhor horário para frete no Batel?",
+      "r": "Manhãs de dias úteis costumam ser as mais tranquilas. A Av. do Batel e a Vicente Machado ficam movimentadas à noite e nos fins de semana por causa de bares e restaurantes, o que dificulta parar o caminhão perto da portaria."
+    },
+    {
+      "p": "Vocês buscam móveis comprados nos shoppings do Batel?",
+      "r": "Sim. Retiramos compras feitas no Pátio Batel, Novo Batel, Crystal ou Shopping Curitiba e levamos para qualquer bairro. Se o item vier em caixa, podemos montar no destino, desde que você solicite no pedido de orçamento."
+    }
+  ],
+  "proximos": ["centro", "agua-verde", "bigorrilho"],
+  "fontes": [
+    "https://www.chavesnamao.com.br/blog/pr-curitiba/batel/",
+    "https://myside.com.br/guia-curitiba/batel-curitiba-pr",
+    "https://www.bandab.com.br/curitiba/novidades-regionais-cidade-curitiba/amp/"
+  ]
+}

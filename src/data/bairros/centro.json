@@ -1,0 +1,70 @@
+{
+  "slug": "centro",
+  "nome": "Centro",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Centro | Carretos em Curitiba",
+  "descricao": "Frete e mudança no Centro de Curitiba com rota pensada para calçadões, feira de domingo e obras do BRT. Peça seu orçamento pelo WhatsApp.",
+  "h1": "Frete e mudança no Centro, Curitiba",
+  "sobre": "O Centro de Curitiba reúne cerca de 40 mil moradores, calçadões exclusivos para pedestres e uma rede de 123 linhas de ônibus cruzando suas ruas. Para quem precisa de frete no Centro, isso muda tudo: o caminhão raramente encosta na porta, e a descarga depende de horário, rua e dia da semana. Planejamos cada mudança no Centro a partir desses detalhes, antes de carregar a primeira caixa.",
+  "secoes": [
+    {
+      "h2": "Onde o caminhão não entra: Rua XV, Largo da Ordem e Emiliano Perneta",
+      "paragrafos": [
+        "O Calçadão da Rua XV de Novembro foi fechado para carros em 1972 e vai da Rua Presidente Faria até a Praça Osório, passando pela Boca Maldita. Quem mora ou tem sala comercial nesse trecho precisa de carregadores que levem os volumes a pé até a esquina mais próxima com acesso de veículo. Calculamos essa distância na visita ou pelas fotos enviadas.",
+        "No setor histórico, a Feirinha do Largo da Ordem ocupa as ruas de paralelepípedo perto da Igreja da Ordem Terceira de São Francisco todos os domingos, com cerca de mil expositores. Mudança ali no domingo não é opção prática. O mesmo vale para a Rua Emiliano Perneta, entre a Praça Zacarias e a Visconde de Nácar, que já foi fechada das 5h às 20h para o evento Domingo no Centro."
+      ]
+    },
+    {
+      "h2": "Obras do BRT Leste/Oeste e a Sete de Setembro em 2026",
+      "paragrafos": [
+        "Em 2026 a prefeitura bloqueou trechos da Avenida Sete de Setembro para as obras do BRT Leste/Oeste, como a marginal entre a Desembargador Westphalen e o Museu Ferroviário, além de faixas da Barão do Rio Branco e do cruzamento com a João Negrão. Em agosto, a faixa lenta em frente à Praça Eufrásio Correia, entre a Barão do Rio Branco e a Lourenço Pinto, foi fechada de vez para virar calçadão.",
+        "Por isso conferimos os desvios vigentes na semana do serviço e ajustamos a rota do veículo. Se o seu prédio fica nesse eixo, avise no pedido de orçamento: às vezes vale descarregar pela rua paralela."
+      ]
+    },
+    {
+      "h2": "Prédios antigos, salas comerciais e o entorno da Praça Rui Barbosa",
+      "paragrafos": [
+        "A prefeitura prevê incentivo fiscal para a reforma de prédios antigos do Centro que preservem as características originais, sinal de quantos edifícios de outras épocas seguem em uso. Eles dividem as quadras com lojas, salas e conjuntos comerciais. Levantamento do Inpespar de 2024 apontou o bairro como líder em venda de imóveis residenciais usados na cidade, o que significa muita gente entrando e saindo de apartamentos já ocupados.",
+        "Na Praça Rui Barbosa fica a Rua da Cidadania da Matriz, sede da regional que administra o Centro, com estacionamento de 197 vagas na Rua André de Barros. O movimento de pedestres e ônibus nas ruas Pedro Ivo e Desembargador Westphalen pede descarga rápida e equipe organizada."
+      ],
+      "lista": [
+        "Escada estreita: desmontamos guarda-roupas e camas antes de descer",
+        "Elevador pequeno: medimos sofás e geladeiras com antecedência",
+        "Sala comercial: combinamos horário com a administração do prédio"
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Centro costuma envolver um trecho a pé entre o veículo e a porta, por causa dos calçadões e das ruas com fluxo intenso de ônibus. Para entregas de móveis comprados nas lojas da região ou em shoppings como Itália, Omar e Curitiba, definimos o ponto de parada antes e levamos o item protegido com manta até o seu andar.",
+    "carreto": "Carreto no Centro, Curitiba, funciona bem para quem mora em kitnet ou apartamento pequeno nos prédios antigos do bairro. Levamos poucos volumes, como cama, geladeira e caixas, num veículo menor, mais fácil de parar em ruas estreitas e movimentadas. Evitamos domingos no setor histórico, quando a feira do Largo da Ordem toma as ruas de paralelepípedo.",
+    "mudanca-residencial": "Na mudança residencial no Centro, o maior cuidado é com escadas e elevadores de prédios mais velhos. Verificamos se o elevador comporta os móveis maiores, desmontamos o que for preciso e embalamos com manta. Também conferimos se o seu endereço fica em trecho afetado pelas obras do BRT na Sete de Setembro, para escolher o melhor acesso.",
+    "mudanca-comercial": "O Centro tem muitas lojas, salas e conjuntos comerciais, e a mudança comercial aqui precisa respeitar o horário do condomínio e o movimento da rua. Fazemos a retirada de mesas, arquivos e equipamentos de escritório em horário combinado, inclusive fora do expediente quando o prédio permite, para não interromper o atendimento de quem divide o andar.",
+    "montagem-de-moveis": "Em apartamento antigo do Centro, muitas vezes o guarda-roupa só passa pela escada desmontado. Fazemos a desmontagem no imóvel de origem e a montagem no destino, sob pedido, incluindo camas, armários e estantes. Também montamos móveis novos comprados nas lojas da região, entregues em caixa, sem você precisar contratar outra pessoa."
+  },
+  "faq": [
+    {
+      "p": "Vocês conseguem fazer mudança em prédio no Calçadão da Rua XV?",
+      "r": "Sim. Como o calçadão é fechado para veículos desde 1972, o caminhão para na via transversal mais próxima e a equipe leva os volumes a pé até a porta. Avaliamos essa distância no orçamento para dimensionar o número de ajudantes."
+    },
+    {
+      "p": "Dá para fazer mudança no Centro aos domingos?",
+      "r": "Depende do endereço. No entorno do Largo da Ordem, a feira de domingo ocupa as ruas do setor histórico, e eventos como o Domingo no Centro já fecharam a Emiliano Perneta. Para essas áreas, sugerimos sábado ou dia útil."
+    },
+    {
+      "p": "As obras do BRT na Sete de Setembro atrapalham a mudança?",
+      "r": "Podem mudar o acesso, já que houve bloqueios de faixas e a criação de um calçadão em frente à Praça Eufrásio Correia. Antes do serviço, conferimos os desvios informados pela prefeitura e escolhemos uma rua alternativa para estacionar."
+    }
+  ],
+  "proximos": ["batel", "bigorrilho", "agua-verde", "reboucas"],
+  "fontes": [
+    "https://www.curitiba.pr.gov.br/noticias/bairro-preferido-para-morar-e-instalar-negocios-centro-conta-com-facilidades-para-todos-os-gostos/75769",
+    "https://www.curitiba.pr.gov.br/noticias/ha-54-anos-nascia-a-primeira-via-exclusiva-para-pedestres-do-brasil-o-calcadao-da-rua-xv/83122",
+    "https://www.curitiba.pr.gov.br/noticias/feirinha-do-largo-da-ordem-se-destaca-em-lista-do-tripadvisor-como-uma-das-melhores-do-brasil/75547",
+    "https://www.curitiba.pr.gov.br/noticias/confira-as-alteracoes-de-transito-e-onibus-em-curitiba-para-a-estreia-do-domingo-no-centro/76310",
+    "https://www.curitiba.pr.gov.br/noticias/regiao-central-tem-alteracoes-de-transito-para-obra-do-brt-lesteoeste/83462",
+    "https://www.curitiba.pr.gov.br/noticias/rua-joao-negrao-tera-bloqueio-parcial-para-continuidade-das-obras-do-brt-lesteoeste/83912",
+    "https://www.tribunapr.com.br/noticias/curitiba-regiao/trecho-sete-setembro-fechado-para-calcadao-curitiba/",
+    "https://www.curitiba.pr.gov.br/noticias/centro-comercial-rui-barbosa-tem-de-tudo-comercio-servicos-e-alimentacao/85106",
+    "https://www.bandab.com.br/curitiba/novidades-regionais-cidade-curitiba/amp/"
+  ]
+}

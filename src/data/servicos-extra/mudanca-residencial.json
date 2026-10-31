@@ -1,0 +1,70 @@
+{
+  "secoes": [
+    {
+      "h2": "Como funciona a mudança residencial em Curitiba",
+      "paragrafos": [
+        "Uma mudança bem feita começa dias antes do caminhão chegar. A ordem abaixo é a mais comum."
+      ],
+      "lista": [
+        "Levantamento do volume por lista, fotos ou vídeo dos cômodos.",
+        "Orçamento fechado com o que entra: transporte, desmontagem, montagem e embalagem.",
+        "Agendamento conforme as regras dos dois condomínios.",
+        "No dia: proteção dos móveis, desmontagem e carregamento por cômodo.",
+        "Descarga no novo endereço, com cada item no cômodo certo, e montagem."
+      ]
+    },
+    {
+      "h2": "O que define o valor da mudança",
+      "paragrafos": [
+        "Não existe preço por metro quadrado. O que conta é o volume e o trabalho envolvido. Veja como cada fator pesa:"
+      ],
+      "tabela": {
+        "cabecalho": ["Fator", "Por que pesa"],
+        "linhas": [
+          ["Quantidade de móveis e caixas", "Define o tamanho do caminhão e da equipe"],
+          ["Andares sem elevador", "Cada lance de escada aumenta o tempo"],
+          ["Móveis para desmontar e montar", "Guarda-roupas e camas tomam boa parte do dia"],
+          ["Embalagem pela equipe", "Soma horas de trabalho e material"],
+          ["Içamento pela janela", "Exige equipe e equipamento extras"],
+          ["Distância entre os endereços", "Mudanças para outra cidade levam mais tempo de estrada"]
+        ]
+      }
+    },
+    {
+      "h2": "Particularidades de mudar em Curitiba",
+      "paragrafos": [
+        "Muitos condomínios de Curitiba só permitem mudança em dias úteis e em horário comercial, com reserva do elevador de serviço. Em torres altas, como as do Ecoville e do Mossunguê, a fila do elevador pode virar o gargalo do dia. Reserve o elevador pelo período inteiro, não só por algumas horas.",
+        "No Centro, no São Francisco e no Alto da XV ainda há prédios antigos sem elevador e com escada estreita. Nesses casos, sofás e armários grandes podem precisar de [içamento](/servicos/icamento/).",
+        "A chuva é frequente o ano inteiro. Com caminhão baú, a carga fica protegida, mas o trajeto entre a porta e o caminhão também conta. Deixe plástico e lona separados para esse trecho.",
+        "Para mudanças em São José dos Pinhais, Pinhais, Colombo, Araucária, Fazenda Rio Grande, Almirante Tamandaré ou Campo Largo, a lógica é a mesma. Só muda o tempo de deslocamento."
+      ]
+    },
+    {
+      "h2": "Erros comuns que atrasam a mudança",
+      "paragrafos": [
+        "Quase todo atraso vem de algo que dava para resolver antes. Use o [checklist de mudança](/blog/checklist-de-mudanca/) e o [guia de mudança residencial em Curitiba](/blog/mudanca-residencial-em-curitiba-guia/) para se preparar."
+      ],
+      "lista": [
+        "Caixas ainda abertas quando a equipe chega.",
+        "Elevador não reservado ou reservado só em um dos prédios.",
+        "Geladeira não descongelada.",
+        "Nenhum lugar combinado para o caminhão parar.",
+        "Itens que não vão na mudança misturados com os que vão."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "Preciso estar presente durante toda a mudança?",
+      "r": "É recomendado. Se não for possível, deixe alguém de confiança nos dois endereços para indicar onde vai cada coisa e conferir a carga."
+    },
+    {
+      "p": "Vocês levam plantas e vasos grandes?",
+      "r": "Sim, desde que avisados no orçamento. Regue dois dias antes, não no dia, para o vaso não pesar demais nem escorrer água no caminhão."
+    },
+    {
+      "p": "O que não deve ir no caminhão?",
+      "r": "Documentos, joias, dinheiro, remédios de uso diário e produtos inflamáveis, como botijão de gás cheio e solventes. Leve os pessoais com você."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "sitio-cercado",
+  "nome": "Sítio Cercado",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Sítio Cercado, Curitiba",
+  "descricao": "Mudança, frete e carreto no Sítio Cercado: rotas pela Izaac Ferreira da Cruz, casas do Bairro Novo e ruas estreitas. Orçamento pelo WhatsApp.",
+  "h1": "Frete e mudança no Sítio Cercado, Curitiba",
+  "sobre": "Com cerca de 115 mil moradores em 11 km², o Sítio Cercado é o segundo bairro mais populoso de Curitiba, atrás só da CIC. Faz parte da Regional Bairro Novo, junto com Ganchinho e Umbará. Predominam casas de padrão popular e há poucos prédios. Quem pede mudança no Sítio Cercado quase sempre sai de uma casa, e o desafio está mais nas ruas do que nas escadas.",
+  "secoes": [
+    {
+      "h2": "Izaac Ferreira da Cruz: a espinha do bairro",
+      "paragrafos": [
+        "A Rua Izaac Ferreira da Cruz tem mais de cinco quilômetros, da BR-116 (Linha Verde) até a Rua Francisco Derosso. A prefeitura a define como a principal via de escoamento do tráfego do bairro, e por ela passam cerca de doze linhas de ônibus. É ali que estão padarias, supermercados, farmácias, academias e lojas de roupa, com fluxo de pedestres intenso o dia todo.",
+        "Para o caminhão, isso significa pouca vaga livre e parada curta. Quando o endereço fica na própria Izaac, combinamos a carga cedo ou usamos uma rua lateral. Para quem sai do bairro rumo ao Centro ou ao Pinheirinho, ela é o acesso mais direto à Linha Verde."
+      ]
+    },
+    {
+      "h2": "Bairro Novo, vilas e ruas de largura variada",
+      "paragrafos": [
+        "O Sítio Cercado reúne 13 vilas, como Osternack, Tecnológica e Arcondes. Uma parte grande do bairro nasceu do loteamento Bairro Novo, um programa municipal de habitação implantado a partir dos anos 1990, que hoje abriga mais de 13 mil famílias. São lotes com casas parecidas, muitas ampliadas ao longo dos anos com puxadinhos e segundo andar.",
+        "As vias mudam muito de uma vila para outra. Há avenidas largas de pista dupla e também ruas estreitas, onde um caminhão maior não consegue manobrar. Por isso perguntamos o endereço exato antes de definir o tamanho do veículo. As ruas Ourizona e Nova Aurora funcionam como binário, cada uma em um sentido, por cerca de 3 km, e isso muda o trajeto de chegada."
+      ]
+    },
+    {
+      "h2": "De fazenda de tropeiros a bairro adensado",
+      "paragrafos": [
+        "O nome vem da Fazenda Cercado, uma área entre arroios que servia de pouso a tropeiros e foi dividida entre herdeiros por volta de 1940. Os loteamentos vieram décadas depois. Hoje o bairro tem terminal próprio, o Terminal Sítio Cercado, com linhas para Capão Raso, Portão, Boqueirão, Bairro Novo e Pinheirinho, além de UPA 24 horas e do Parque do Semeador.",
+        "Nos últimos anos surgiram alguns condomínios de classe média. Neles, a mudança segue as regras da administração: horário de entrada, reserva do portão e, às vezes, cadastro do veículo."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Sítio Cercado normalmente parte de uma casa térrea ou de um sobrado ampliado. Antes de sair, conferimos se a rua comporta o veículo, já que algumas vias das vilas são estreitas. Para destinos fora do bairro, a Izaac Ferreira da Cruz leva direto à Linha Verde. Móveis e eletrodomésticos seguem envolvidos em manta.",
+    "carreto": "Carreto Sítio Cercado Curitiba atende de tudo um pouco: geladeira comprada na Izaac, sofá doado para um parente, material de reforma de puxadinho. Para cargas pequenas usamos veículo menor, que entra com facilidade nas ruas estreitas das vilas e para em frente ao portão sem atrapalhar o trânsito local.",
+    "mudanca-residencial": "Muitas casas do Bairro Novo foram ampliadas com segundo piso e escada estreita. Na mudança residencial, avaliamos por foto ou vídeo o que precisa ser desmontado para descer. Separamos os volumes por cômodo e protegemos piso e batentes. O orçamento sai antes, com base na lista de itens.",
+    "mudanca-comercial": "O comércio do bairro se concentra na Izaac Ferreira da Cruz, com fluxo intenso de pedestres. Para mudar uma loja, padaria ou salão dali, programamos a carga para fora do pico e fazemos o transporte em etapas, se preciso. Prateleiras, balcões e equipamentos são desmontados e identificados para remontagem rápida.",
+    "montagem-de-moveis": "Fazemos desmontagem e montagem de guarda-roupas, camas, racks e cozinhas moduladas. É comum no Sítio Cercado o cliente trocar de casa dentro do próprio bairro, e aí a desmontagem cuidadosa evita perder peças entre um endereço e outro. Também montamos móveis novos sob agendamento."
+  },
+  "faq": [
+    {
+      "p": "O caminhão consegue entrar em qualquer rua do Sítio Cercado?",
+      "r": "Nem sempre. O bairro tem avenidas largas, mas também ruas estreitas nas vilas. Por isso pedimos o endereço completo no orçamento e escolhemos o veículo certo. Se a rua não comportar o caminhão, usamos um menor ou fazemos o transbordo na esquina."
+    },
+    {
+      "p": "Fazem mudança do Sítio Cercado para o Pinheirinho ou o Boqueirão?",
+      "r": "Sim. Para o Pinheirinho seguimos pela Izaac até a Linha Verde. Para o Boqueirão, a Rua dos Pioneiros e a David Tows são caminhos comuns. São trajetos curtos, o que ajuda a concluir mudanças pequenas em meio período."
+    },
+    {
+      "p": "Atendem o Bairro Novo e as vilas do Sítio Cercado?",
+      "r": "Atendemos todas as vilas do bairro, incluindo a área do Bairro Novo, Osternack, Vila Tecnológica e Arcondes. Basta mandar pelo WhatsApp o endereço de saída, o de chegada e a lista de móveis."
+    }
+  ],
+  "proximos": ["pinheirinho", "boqueirao"],
+  "fontes": [
+    "https://www.quintoandar.com.br/regioes-atendidas/sitio-cercado-curitiba-pr-brasil-9p6wtnw9dr",
+    "https://www.quintoandar.com.br/guias/?p=496184",
+    "https://www.tribunapr.com.br/cacadores-de-noticias/especial-curitiba-323-anos/o-sitio-virou-cidade/",
+    "https://www.curitiba.pr.gov.br/noticias/prefeitura-recupera-pavimento-da-izaac-ferreira-da-cruz-no-sitio-cercado/53189",
+    "https://www.curitiba.pr.gov.br/3anosdetrabalho/regional/bairronovo",
+    "https://www.curitiba.pr.gov.br/noticias/prefeitura-recupera-mais-12-km-de-ruas-no-bairro-sitio-cercado/83430",
+    "https://www.curitiba.pr.gov.br/noticias/novos-residenciais-do-ganchinho-sao-continuidade-do-bairro-novo/31806"
+  ]
+}

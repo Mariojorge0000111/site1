@@ -1,11 +1,12 @@
 ---
 layout: ../../layouts/Post.astro
-titulo: "Desmontagem e montagem de móveis em Curitiba na mudança"
-descricao: "Desmontagem e montagem de móveis em Curitiba: o que desmontar, como guardar parafusos, quando precisa içamento e o que pedir no orçamento. Saiba mais."
+titulo: "Desmontagem e montagem de móveis em Curitiba"
+descricao: "Desmontagem e montagem de móveis em Curitiba: o que desmontar, como guardar parafusos, móveis planejados, içamento e o que pedir no orçamento."
 data: "2026-10-27"
 imagem: "/images/blog-desmontagem-e-montagem-de-moveis-na-mudanca.webp"
 imagemAlt: "Chave de fenda vermelha sobre o canto de um móvel de madeira"
 palavraChave: "desmontagem e montagem de móveis em Curitiba"
+atualizado: "2026-10-31"
 ---
 
 A desmontagem e montagem de móveis em Curitiba é uma das etapas que mais tomam tempo numa mudança, e uma das que mais causam dano quando feitas às pressas. Um guarda-roupa mal desmontado perde parafusos, empena ou quebra nas junções. Neste artigo você vê quais móveis precisam ser desmontados, como organizar as ferragens, os cuidados com MDF e MDP, quando o móvel precisa de içamento e o que pedir no orçamento.
@@ -48,6 +49,32 @@ Marque as peças com fita crepe e números ou letras. Laterais esquerda e direit
 ### Guarde as ferramentas à mão
 
 Deixe chaves, parafusadeira e brocas numa caixa separada, que vai com você e não no fundo do caminhão.
+
+## Ferramentas básicas para desmontar
+
+Quem vai desmontar por conta própria precisa de pouco, mas precisa das ferramentas certas. Usar chave errada é a forma mais rápida de espanar a cabeça do parafuso.
+
+- Chaves Phillips e de fenda em dois ou três tamanhos.
+- Jogo de chaves Allen, muito usadas em móveis de montar.
+- Parafusadeira com controle de torque, ajustada no mínimo.
+- Martelo de borracha, para encaixar cavilhas sem marcar a peça.
+- Fita crepe, caneta e saquinhos com fecho.
+- Mantas ou papelão para apoiar as peças no chão.
+
+Evite usar a parafusadeira no torque máximo em MDF e MDP. O parafuso entra rápido demais e destrói a rosca.
+
+## Ordem certa de desmontagem
+
+Desmontar fora de ordem deixa o móvel instável e aumenta o risco de uma peça cair. A sequência que funciona para a maior parte dos guarda-roupas e estantes:
+
+1. **Esvazie tudo.** Roupas, cabides, objetos em cima e dentro.
+2. **Retire espelhos e vidros primeiro.** Embrulhe com manta e guarde em pé, longe do caminho.
+3. **Tire portas e gavetas.** Portas de correr saem pelo trilho. Gavetas vão com as corrediças, se possível.
+4. **Remova prateleiras soltas e cabideiros.**
+5. **Solte o fundo.** Normalmente é uma chapa fina presa com pregos ou grampos. Retire com cuidado para não rasgar.
+6. **Desmonte a estrutura** de cima para baixo: tampo, laterais, base.
+
+Para montar, a ordem é inversa. As fotos tiradas antes ajudam a lembrar a posição de cada peça.
 
 ## Móveis de MDF e MDP: cuidado com várias remontagens
 
@@ -103,6 +130,33 @@ O tempo varia muito. Depende do tamanho do móvel, do estado das ferragens e da 
 | Móveis planejados | Alta |
 
 Montar costuma levar mais tempo que desmontar. Móveis planejados merecem atenção especial: muitas vezes são fixados na parede e precisam de ajustes no novo espaço.
+
+## Móveis planejados: levar ou deixar?
+
+Cozinhas, closets e painéis planejados são feitos sob medida para um espaço. Na mudança, a dúvida é se vale a pena retirar.
+
+- **Medidas do novo imóvel.** Se a parede ou o vão forem diferentes, o móvel pode não encaixar sem adaptação.
+- **Fixação.** Muitos são parafusados na parede, com buchas. A retirada deixa furos para tapar no imóvel antigo.
+- **Contrato de aluguel.** Em imóvel alugado, veja se o planejado pode sair ou se fica com o imóvel.
+- **Estado das peças.** Planejados antigos de MDP podem não aguentar a desmontagem.
+
+Se decidir levar, peça avaliação antes, com fotos e medidas dos dois ambientes. Às vezes compensa levar só os módulos que se encaixam no novo espaço.
+
+## Casos por tipo de imóvel em Curitiba
+
+- **Apartamento com elevador pequeno.** Comum em prédios antigos do [Centro](/bairros/centro/). Guarda-roupas, camas e sofás grandes quase sempre precisam ser desmontados ou içados.
+- **Sobrado com escada em L ou caracol.** Frequente em bairros residenciais como Boqueirão e Portão. Meça o patamar: é ali que o móvel trava.
+- **Apartamento novo com elevador amplo.** Em prédios recentes do Ecoville e do [Mossunguê](/bairros/mossungue/), móveis médios às vezes passam inteiros, mas o condomínio pode limitar o tempo de uso do elevador.
+- **Casa térrea na região metropolitana.** Em São José dos Pinhais, Colombo ou Fazenda Rio Grande, o acesso costuma ser mais fácil, mas o trajeto é longo: móvel desmontado e bem amarrado sofre menos com a vibração.
+
+## Erros comuns na desmontagem e montagem
+
+- **Desmontar sem fotografar.** Na montagem, ninguém lembra a posição das prateleiras.
+- **Juntar todos os parafusos num pote só.** Ferragens de móveis diferentes se misturam.
+- **Arrastar peças desmontadas.** As bordas lascam e o revestimento descola.
+- **Deixar peças encostadas em parede úmida.** O MDF absorve a umidade e incha.
+- **Apertar demais na remontagem.** O parafuso espana e o móvel fica bambo.
+- **Montar antes de limpar o cômodo.** Depois de montado, fica difícil limpar atrás e embaixo.
 
 ## O que pedir no orçamento
 

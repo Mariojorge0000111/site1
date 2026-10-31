@@ -1,0 +1,78 @@
+{
+  "secoes": [
+    {
+      "h2": "Como pedir um carreto em Curitiba",
+      "paragrafos": [
+        "O carreto é pensado para ser rápido. Por isso, o pedido precisa ter as informações certas logo na primeira mensagem."
+      ],
+      "lista": [
+        "Foto do item e, se possível, as medidas aproximadas.",
+        "Endereço de retirada e de entrega, com número e complemento.",
+        "Andar de cada lado e se há elevador ou escada.",
+        "Horário em que alguém estará nos dois endereços.",
+        "Se a compra já está paga e liberada para retirada."
+      ]
+    },
+    {
+      "h2": "Carreto para compras da OLX e do Marketplace",
+      "paragrafos": [
+        "Buscar um móvel de particular tem detalhes que uma loja não tem. O vendedor pode morar em sobrado, em prédio sem elevador ou em rua sem lugar para parar. Pergunte isso antes de fechar a compra.",
+        "Combine o pagamento direto com o vendedor antes do carreto chegar. Assim a equipe não fica esperando confirmação de PIX. Se o item for pesado, como geladeira ou guarda-roupa, verifique se ele já está desmontado ou se precisa de [montagem de móveis](/servicos/montagem-de-moveis/).",
+        "Há um guia com mais cuidados em [frete para compras da OLX e Marketplace](/blog/frete-para-compras-olx-marketplace-curitiba/)."
+      ]
+    },
+    {
+      "h2": "Carreto, frete ou mudança: o que pedir",
+      "paragrafos": [
+        "A escolha depende mais da quantidade de itens do que da distância. Use a tabela como ponto de partida. Para volumes maiores, veja o [frete](/servicos/frete/) ou a [mudança residencial](/servicos/mudanca-residencial/). Se o item não passa pela escada, pode ser preciso içar pela janela ou sacada."
+      ],
+      "tabela": {
+        "cabecalho": [
+          "O que você vai levar",
+          "Serviço indicado"
+        ],
+        "linhas": [
+          [
+            "Um a três itens, sem muitas caixas",
+            "Carreto"
+          ],
+          [
+            "Um quarto, kitnet ou vários móveis",
+            "Frete"
+          ],
+          [
+            "Apartamento ou casa inteira",
+            "Mudança residencial"
+          ],
+          [
+            "Item que não passa pela escada",
+            "Carreto com içamento"
+          ]
+        ]
+      }
+    },
+    {
+      "h2": "Carreto em Curitiba e região: cuidados práticos",
+      "paragrafos": [
+        "Em bairros centrais, como Centro, Batel e Água Verde, achar vaga para parar perto da porta é o que mais atrasa. Se o prédio tiver garagem ou recuo, peça liberação na portaria.",
+        "Para carretos em São José dos Pinhais, Colombo, Pinhais ou Araucária, o tempo de deslocamento pesa no valor. Juntar duas retiradas na mesma região, no mesmo horário, costuma compensar.",
+        "Em dia de chuva, itens de tecido e MDF precisam ir cobertos. Se o carreto for em caminhonete, confirme se há lona.",
+        "Se for buscar mais de um item em lugares diferentes, mande todos os endereços de uma vez. Assim a rota é montada para gastar menos tempo no trânsito."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "O motorista sobe escada sozinho com o item?",
+      "r": "Depende do peso. Itens leves, sim. Para geladeira, sofá grande ou guarda-roupa, é preciso um ajudante extra. Isso é definido no orçamento pelas fotos."
+    },
+    {
+      "p": "Dá para levar o item velho para descarte no mesmo carreto?",
+      "r": "Sim, desde que seja combinado antes. Informe o que vai para descarte e o ponto de entrega, como um ecoponto da prefeitura."
+    },
+    {
+      "p": "E se o item não couber no veículo combinado?",
+      "r": "Por isso as fotos e as medidas são pedidas antes. Com elas, o veículo é escolhido certo e o risco de imprevisto cai bastante."
+    }
+  ]
+}

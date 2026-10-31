@@ -1,0 +1,63 @@
+{
+  "secoes": [
+    {
+      "h2": "Como planejar a mudança comercial em Curitiba",
+      "paragrafos": [
+        "A mudança de uma empresa tem mais gente envolvida e menos margem para erro. Um roteiro simples ajuda a manter todos alinhados."
+      ],
+      "lista": [
+        "Defina um responsável interno para falar com a equipe da mudança.",
+        "Faça o levantamento de móveis, equipamentos, arquivos e estoque.",
+        "Desenhe a planta do novo espaço com a posição de cada setor.",
+        "Combine as regras de horário e cadastro dos dois prédios.",
+        "Avise clientes e fornecedores sobre a data e o novo endereço."
+      ]
+    },
+    {
+      "h2": "Cronograma sugerido por semana",
+      "paragrafos": [
+        "Cada empresa tem seu ritmo, mas este cronograma serve de base para escritórios, lojas e clínicas."
+      ],
+      "tabela": {
+        "cabecalho": ["Quando", "O que fazer"],
+        "linhas": [
+          ["Quatro semanas antes", "Orçamento, data definida e aviso à administração dos prédios"],
+          ["Três semanas antes", "Descarte de arquivos e móveis que não vão para o novo endereço"],
+          ["Duas semanas antes", "Planta do novo espaço e etiquetas por setor"],
+          ["Uma semana antes", "Embalagem de arquivos e itens de uso raro"],
+          ["Véspera", "Backup, desligamento dos equipamentos e cabos identificados"],
+          ["Dia seguinte", "Conferência de setor por setor e testes de rede e telefone"]
+        ]
+      }
+    },
+    {
+      "h2": "Cuidados com equipamentos, arquivos e estoque",
+      "paragrafos": [
+        "Computadores, monitores e impressoras vão embalados e separados dos móveis pesados. Monitores e TVs viajam em pé. Se tiver as caixas originais, use. Se não tiver, o serviço de [embalagem](/servicos/embalagem/) resolve com plástico-bolha e papelão.",
+        "Arquivos com documentos devem ir em caixas fechadas, numeradas e listadas. Em clínicas e consultórios, equipamentos sensíveis podem exigir orientação do fabricante para transporte. Verifique o manual antes.",
+        "Para lojas, a regra é separar o estoque por categoria e etiquetar cada caixa com o local da prateleira no novo ponto. Isso reduz o tempo até a loja abrir de novo."
+      ]
+    },
+    {
+      "h2": "Mudança comercial em Curitiba e região",
+      "paragrafos": [
+        "Prédios comerciais do Centro, do Batel e do Ecoville costumam ter docas com horário restrito e exigir cadastro da equipe com dias de antecedência. Em galerias e shoppings, a mudança quase sempre só acontece fora do horário de funcionamento.",
+        "Empresas que vão para galpões em São José dos Pinhais, Pinhais, Araucária ou Campo Largo precisam confirmar o acesso de caminhão e o horário da portaria. Se a mudança for pequena, um [frete](/servicos/frete/) pode bastar. Para mesas e estações, veja a [montagem de móveis](/servicos/montagem-de-moveis/)."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "A mudança pode ser feita em etapas?",
+      "r": "Pode. Algumas empresas mudam um setor por vez para não parar tudo. Cada etapa é agendada e entra no orçamento."
+    },
+    {
+      "p": "Vocês desligam e religam os computadores?",
+      "r": "A equipe transporta os equipamentos. A desconexão, o backup e a instalação de rede ficam com o seu responsável de TI."
+    },
+    {
+      "p": "O que fazer com os móveis que não vão para o novo endereço?",
+      "r": "Separe e identifique antes do dia. Eles podem ser levados para descarte, doação ou depósito em uma viagem combinada à parte."
+    }
+  ]
+}

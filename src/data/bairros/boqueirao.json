@@ -1,0 +1,66 @@
+{
+  "slug": "boqueirao",
+  "nome": "Boqueirão",
+  "prep": "no",
+  "titulo": "Frete e Mudança no Boqueirão, Curitiba",
+  "descricao": "Frete, carreto e mudança no Boqueirão, Curitiba: rotas pela Marechal Floriano, casas, sobrados e condomínios. Peça seu orçamento pelo WhatsApp.",
+  "h1": "Frete e mudança no Boqueirão, Curitiba",
+  "sobre": "O Boqueirão é o quinto bairro mais populoso de Curitiba, com 65.618 moradores no Censo 2022, e sede da regional que leva seu nome. A maior parte das moradias são casas: a prefeitura contabiliza 26,6 mil residências e 125 edifícios e condomínios. Isso molda o frete no Boqueirão: muita retirada direto da garagem, quintal ou portão, e menos agendamento com síndico.",
+  "secoes": [
+    {
+      "h2": "A Marechal Floriano corta o bairro ao meio",
+      "paragrafos": [
+        "A Avenida Marechal Floriano Peixoto atravessa o Boqueirão e divide o bairro em duas partes. Por ela passa a canaleta exclusiva dos ônibus, ligando o Terminal do Carmo ao Terminal Boqueirão. Caminhão não pode parar nem manobrar na canaleta, então a carga é feita nas vias laterais ou nas ruas transversais.",
+        "Em 2026 o trecho perto do Terminal do Carmo teve acidentes graves com pedestres e ciclistas noticiados pela imprensa local. Por isso, quando o endereço fica de frente para a Marechal, preferimos combinar a carga numa rua paralela, como a Carlos de Laet, que está a três quadras, e levar os volumes a pé com carrinho."
+      ]
+    },
+    {
+      "h2": "Ruas que mais usamos para entrar e sair do Boqueirão",
+      "paragrafos": [
+        "Cada saída tem sua função. A escolha depende de para onde vai a mudança:"
+      ],
+      "lista": [
+        "Rua Francisco Derosso: liga o bairro ao Xaxim e ao Alto Boqueirão.",
+        "Rua dos Pioneiros: caminho da Marechal Floriano para o Sítio Cercado e o Pinheirinho.",
+        "Rua David Tows: conexão com a Regional Bairro Novo.",
+        "Rua Bley Zornig: concentra lojas de tecidos e malhas entre a Marechal e a Av. Senador Salgado Filho; em horário comercial, o estacionamento para carga é disputado."
+      ]
+    },
+    {
+      "h2": "Bairro de banhado, de menonitas e de lojas de rua",
+      "paragrafos": [
+        "O nome vem da antiga Fazenda Boqueirão, uma área alagadiça cortada pelos rios Belém e Iguaçu. Na década de 1930 a terra foi loteada em milhares de terrenos, e os menonitas trouxeram a produção de leite. A Praça da Colonização Menonita, com 28 mil m², lembra essa origem e serve de referência para quem mora em volta.",
+        "O bairro não tem shopping. O comércio é de rua, com muitas microempresas e indústrias pequenas, e isso gera bastante carreto de mercadoria entre lojas e oficinas. Em 2025, ruas como a José Hauer e a Anne Frank receberam pavimento novo, o que facilitou o acesso de caminhão a vários quarteirões residenciais."
+      ]
+    }
+  ],
+  "servicos": {
+    "frete": "O frete no Boqueirão costuma sair de uma casa térrea com garagem, o que agiliza o embarque. Para destinos na região central, seguimos pelas laterais da Marechal Floriano, sem usar a canaleta. Para o Sítio Cercado ou o Pinheirinho, a Rua dos Pioneiros encurta o caminho. Itens frágeis vão protegidos com manta e cinta.",
+    "carreto": "Carreto Boqueirão Curitiba é pedido frequente de lojas da Bley Zornig e de pequenas oficinas do bairro: rolos de tecido, estoque, uma máquina ou poucos móveis. Combinamos o horário para evitar o pico do comércio de rua e fazemos a carga numa transversal quando a frente da loja não tem vaga livre.",
+    "mudanca-residencial": "Na mudança no Boqueirão, o mais comum é casa ou sobrado com quintal, o que permite encostar o caminhão no portão. Quando o imóvel está num dos condomínios do bairro, pedimos antes as regras da portaria. Fazemos visita ou chamada de vídeo para medir o volume e montar o orçamento antes do dia.",
+    "mudanca-comercial": "O Boqueirão reúne milhares de microempresas de varejo e de transformação. Mudar uma loja ou um pequeno galpão exige planejar a carga para não fechar a calçada em horário de movimento. Organizamos o transporte por setor, com caixas etiquetadas, e podemos fazer a operação no fim do expediente ou no sábado.",
+    "montagem-de-moveis": "Sobrados do bairro costumam ter escada estreita para o andar de cima. Nesses casos, desmontamos guarda-roupa, cama box e estantes antes de descer, e remontamos no destino. Também fazemos só a montagem de móveis novos comprados nas lojas da Marechal Floriano ou pela internet, com agendamento pelo WhatsApp."
+  },
+  "faq": [
+    {
+      "p": "O caminhão pode parar na canaleta da Marechal Floriano?",
+      "r": "Não. A canaleta é exclusiva dos ônibus que ligam o Terminal do Carmo ao Terminal Boqueirão. Paramos na via lateral ou numa rua transversal e levamos os volumes com carrinho até o veículo. Avise no orçamento se o imóvel fica de frente para a avenida."
+    },
+    {
+      "p": "Vocês fazem mudança do Boqueirão para o Alto Boqueirão ou o Xaxim?",
+      "r": "Sim. Para esses destinos usamos a Rua Francisco Derosso, que liga os três bairros. Por serem trajetos curtos, muitas vezes dá para fazer mudanças pequenas em uma única viagem, sem precisar de dois veículos. Mande a lista de móveis para avaliarmos."
+    },
+    {
+      "p": "Atendem lojas da Rua Bley Zornig?",
+      "r": "Atendemos. Fazemos carreto de estoque e mudança de loja na Bley Zornig e arredores. Como o trecho entre a Marechal e a Salgado Filho tem muito movimento em dia útil, sugerimos carregar cedo, no fim da tarde ou no sábado."
+    }
+  ],
+  "proximos": ["xaxim", "uberaba", "sitio-cercado", "cajuru"],
+  "fontes": [
+    "https://www.curitiba.pr.gov.br/noticias/de-fazenda-alagada-a-bairro-autossuficiente-boqueirao-e-o-quinto-mais-populoso-de-curitiba/79768",
+    "https://www.chavesnamao.com.br/blog/pr-curitiba/boqueirao/",
+    "https://www.quintoandar.com.br/regioes-atendidas/boqueirao-curitiba-pr-brasil-vk8qtm39kq",
+    "https://www.curitiba.pr.gov.br/noticias/regional-boqueirao-teve-avanco-do-novo-inter-2-caps-e-licitacao-para-trincheiras-da-linha-verde/81084",
+    "https://www.bandab.com.br/?p=1896466"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "secoes": [
+    {
+      "h2": "Quais móveis precisam ser desmontados",
+      "paragrafos": [
+        "Nem tudo precisa sair em pedaços. Desmontar sem necessidade gasta tempo e desgasta MDF e MDP. A tabela mostra o que costuma acontecer com cada tipo de móvel."
+      ],
+      "tabela": {
+        "cabecalho": [
+          "Móvel",
+          "Precisa desmontar?",
+          "Observação"
+        ],
+        "linhas": [
+          [
+            "Guarda-roupa de várias portas",
+            "Sim",
+            "Portas, gavetas e prateleiras saem antes da estrutura"
+          ],
+          [
+            "Cama de casal com cabeceira",
+            "Sim",
+            "O estrado e a cabeceira vão separados"
+          ],
+          [
+            "Cama box",
+            "Geralmente não",
+            "Só a cabeceira, se for fixa"
+          ],
+          [
+            "Mesa de jantar",
+            "Depende",
+            "Tampos grandes saem das pernas para passar na porta"
+          ],
+          [
+            "Rack e painel de TV",
+            "Sim, o painel",
+            "O painel fixado na parede precisa ser retirado"
+          ],
+          [
+            "Cômoda e criado-mudo",
+            "Não",
+            "Basta esvaziar e prender as gavetas"
+          ],
+          [
+            "Estante grande",
+            "Geralmente sim",
+            "Prateleiras soltas sempre saem"
+          ],
+          [
+            "Sofá",
+            "Raramente",
+            "Alguns modelos soltam pés e encosto"
+          ]
+        ]
+      }
+    },
+    {
+      "h2": "Como funciona a desmontagem e montagem na mudança",
+      "paragrafos": [
+        "A ordem do trabalho evita perda de peças e retrabalho no novo endereço."
+      ],
+      "lista": [
+        "Você esvazia o móvel antes: roupas, gavetas e prateleiras.",
+        "A equipe desmonta e separa as ferragens em saquinhos com o nome do móvel.",
+        "As peças são protegidas com manta, principalmente quinas e vidros.",
+        "No destino, cada móvel é montado no cômodo indicado.",
+        "O móvel é nivelado e as portas são reguladas."
+      ]
+    },
+    {
+      "h2": "Cuidados em apartamentos de Curitiba",
+      "paragrafos": [
+        "Em apartamentos novos, como muitos do Ecoville, do Cabral e do Portão, os quartos são compactos e o guarda-roupa mal passa pelo corredor depois de montado. Por isso, a montagem é feita dentro do cômodo de destino, não na sala.",
+        "Em prédios antigos do Centro, a escada estreita obriga a desmontar mais peças do que o normal. Se nem assim o móvel passar, a saída é o [içamento](/servicos/icamento/).",
+        "Painéis de TV e armários aéreos fixados na parede deixam furos. Combine com o proprietário do imóvel quem vai fechar esses furos, principalmente em apartamento alugado."
+      ]
+    },
+    {
+      "h2": "Erros comuns na desmontagem",
+      "paragrafos": [
+        "Alguns erros aparecem só na hora de montar. Para evitar, veja também o guia de [desmontagem e montagem de móveis na mudança](/blog/desmontagem-e-montagem-de-moveis-na-mudanca/).",
+        "Se você desmontar por conta própria, antes da equipe chegar, use um saco de ferragens por móvel, com etiqueta."
+      ],
+      "lista": [
+        "Misturar parafusos de móveis diferentes no mesmo saco.",
+        "Forçar encaixes de MDF, que racham com facilidade.",
+        "Deixar vidros e espelhos presos às portas durante o transporte.",
+        "Montar o móvel antes de definir a posição dele no cômodo."
+      ]
+    }
+  ],
+  "faqExtra": [
+    {
+      "p": "Preciso deixar as ferramentas disponíveis?",
+      "r": "Não. A equipe leva as ferramentas para desmontagem e montagem. Se o móvel tiver alguma ferragem especial, avise antes."
+    },
+    {
+      "p": "Vocês fixam armários e painéis na parede?",
+      "r": "Isso é combinado caso a caso, porque depende do tipo de parede e de ter as buchas e parafusos certos. Informe no pedido."
+    },
+    {
+      "p": "Móvel de MDF aguenta ser montado de novo?",
+      "r": "Em geral, sim, uma ou duas vezes. Furos já gastos podem precisar de reforço. Por isso vale desmontar só o necessário."
+    }
+  ]
+}
