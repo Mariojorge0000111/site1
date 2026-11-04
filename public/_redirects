@@ -21,3 +21,7 @@
 /bairros/capao-raso/      /bairros/   301
 /bairros/hauer/           /bairros/   301
 /bairros/tatuquara/       /bairros/   301
+
+# Páginas do antigo blog de decoração com equivalente no site novo
+/sobre                    /quem-somos/                    301
+/sobre/                   /quem-somos/                    301
